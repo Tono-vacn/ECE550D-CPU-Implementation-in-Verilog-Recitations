@@ -6,7 +6,7 @@ module FSM(clk, reset, w, out_me, out_mo, me_reg, mo_reg);
 	output reg out_mo;
 	output reg [2:0] me_reg;
 	output reg [2:0] mo_reg;
-	//reg out_mo;
+	reg out_mo_reg;
 	
 	localparam [2:0]
 		me_0 = 3'b000,
@@ -42,6 +42,19 @@ module FSM(clk, reset, w, out_me, out_mo, me_reg, mo_reg);
 			begin
 				me_reg <= me_next;
 				mo_reg <= mo_next;
+				out_mo <= out_mo_reg;
+			end
+	end
+
+	always @(me_reg, w)	
+	begin
+		if(w && me_reg==me_4)
+			begin
+				out_me = 1'b1;
+			end
+		else
+			begin
+				out_me = 1'b0;
 			end
 	end
 
@@ -49,131 +62,110 @@ module FSM(clk, reset, w, out_me, out_mo, me_reg, mo_reg);
 	always @(me_reg, w)
 	begin
 		me_next = me_reg;
-		out_me = 1'b0;
+		//out_me = 1'b0;
 		case(me_reg)
 			me_0:
 				if(w)
 					begin
 						me_next = me_1;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end
 			me_1:
 				if(w)
 					begin
 						me_next = me_2;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end
 			me_2:
 				if(w)
 					begin
 						me_next = me_3;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end			
 			me_3:
 				if(w)
 					begin
 						me_next = me_4;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end
 			me_4:
 				if(w)
 					begin
 						me_next = me_0;
-						out_me = 1'b1;
+						//out_me = 1'b1;
 					end
 			me_5:
 				if(w)
 					begin
 						me_next = me_0;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end
 			me_6:
 				if(w)
 					begin
 						me_next = me_0;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end
 			me_7:
 				if(w)
 					begin
 						me_next = me_0;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end
 			default: 
 				if(w)
 					begin
 						me_next = me_0;
-						out_me = 1'b0;
+						//out_me = 1'b0;
 					end
 		endcase
 		
 	end
 	
+	
 	always @(mo_reg, w)
 	begin
 		mo_next = mo_reg;
-		out_mo = 1'b0;
+		//out_mo_reg = 1'b0;
 		case(mo_reg)
 			mo_0:
             begin
-                out_mo = 1'b0; // set the tick to 1.
+                out_mo_reg = 1'b0; 
                 if(w) // if level is 1, 
                     mo_next = mo_1; // go to state one,
-                else    
-                    mo_next = mo_0; // else go to state zero.
             end
 			mo_1:
             begin
-                out_mo = 1'b0; // set the tick to 1.
+                out_mo_reg = 1'b0; 
                 if(w) // if level is 1, 
                     mo_next = mo_2; // go to state one,
-                else    
-                    mo_next = mo_0; // else go to state zero.
             end
 			mo_2:
             begin
-                out_mo = 1'b0; // set the tick to 1.
+                out_mo_reg = 1'b0; 
                 if(w) // if level is 1, 
                     mo_next = mo_3; // go to state one,
-                else    
-                    mo_next = mo_0; // else go to state zero.
             end	
 			mo_3:
             begin
-                out_mo = 1'b0; // set the tick to 1.
+                out_mo_reg = 1'b0; 
                 if(w) // if level is 1, 
                     mo_next = mo_4; // go to state one,
-                else    
-                    mo_next = mo_0; // else go to state zero.
             end
 			mo_4:
             begin
-                out_mo = 1'b1; // set the tick to 1.
+                out_mo_reg = 1'b1; 
                 if(w) // if level is 1, 
                     mo_next = mo_0; // go to state one,
-                else    
-                    mo_next = mo_0; // else go to state zero.
             end
-//			mo_5:
-//				if(w)
-//					begin
-//						mo_next = mo_0;
-//						out_mo = 1'b0;
-//					end
-//			mo_6:
-//				if(w)
-//					begin
-//						mo_next = mo_0;
-//						out_mo = 1'b0;
-//					end
-//			mo_7:
-//				if(w)
-//					begin
-//						mo_next = mo_0;
-//						out_mo = 1'b0;
-//					end
-			default: 
-				mo_next = mo_0;
+			default:
+				begin
+					out_mo_reg = 1'b0;
+					if(w)
+						begin	
+							mo_next = mo_0;
+						end
+				end
 		endcase
 	end
 	

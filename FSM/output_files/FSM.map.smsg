@@ -1,1 +1,1 @@
-Info (10281): Verilog HDL Declaration information at FSM_tb.v(5): object "STATE" differs only in case from object "state" in the same scope File: D:/intelFPGA_lite/17.0/FSM/FSM_tb.v Line: 5
+Warning (10268): Verilog HDL information at FSM.v(34): always construct contains both blocking and non-blocking assignments File: D:/intelFPGA_lite/17.0/ECE550D/FSM/FSM.v Line: 34
