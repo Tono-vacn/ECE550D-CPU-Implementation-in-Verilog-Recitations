@@ -1,0 +1,3 @@
+module RCA(a,b);
+	input a,b;
+endmodule

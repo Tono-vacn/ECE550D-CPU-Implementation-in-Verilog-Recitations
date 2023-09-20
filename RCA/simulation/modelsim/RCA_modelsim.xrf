@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, D:/intelFPGA_lite/17.0/RCA/FA.v
+source_file = 1, D:/intelFPGA_lite/17.0/RCA/RCA.v
+source_file = 1, D:/intelFPGA_lite/17.0/RCA/db/RCA.cbx.xml
+design_name = RCA
+instance = comp, \a~input , a~input, RCA, 1
+instance = comp, \b~input , b~input, RCA, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

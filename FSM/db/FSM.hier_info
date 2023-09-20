@@ -1,0 +1,35 @@
+|FSM
+clk => mo_reg[0]~reg0.CLK
+clk => mo_reg[1]~reg0.CLK
+clk => mo_reg[2]~reg0.CLK
+clk => me_reg[0]~reg0.CLK
+clk => me_reg[1]~reg0.CLK
+clk => me_reg[2]~reg0.CLK
+reset => mo_reg[0]~reg0.ACLR
+reset => mo_reg[1]~reg0.ACLR
+reset => mo_reg[2]~reg0.ACLR
+reset => me_reg[0]~reg0.ACLR
+reset => me_reg[1]~reg0.ACLR
+reset => me_reg[2]~reg0.ACLR
+w => me_next.OUTPUTSELECT
+w => me_next.OUTPUTSELECT
+w => me_next.OUTPUTSELECT
+w => me_next.OUTPUTSELECT
+w => me_next.OUTPUTSELECT
+w => me_next.OUTPUTSELECT
+w => out_me.DATAB
+w => Mux4.IN6
+w => Mux3.IN6
+w => Mux3.IN7
+w => Mux4.IN7
+w => mo_next[2].DATAB
+out_me << out_me.DB_MAX_OUTPUT_PORT_TYPE
+out_mo << Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+me_reg[0] << me_reg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+me_reg[1] << me_reg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+me_reg[2] << me_reg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mo_reg[0] << mo_reg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mo_reg[1] << mo_reg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+mo_reg[2] << mo_reg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

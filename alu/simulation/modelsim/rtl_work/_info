@@ -1,0 +1,296 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/17.0/alu/simulation/modelsim
+valu
+Z1 !s110 1695071640
+!i10b 1
+!s100 8_B<gTDRVoAFO00Y;IR;Q0
+I;EQZ?]bWhc2;D[A0k_P6H2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1695071454
+8D:/intelFPGA_lite/17.0/alu/alu.v
+FD:/intelFPGA_lite/17.0/alu/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1695071640.000000
+!s107 D:/intelFPGA_lite/17.0/alu/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu
+Z7 tCvgOpt 0
+valu_tb
+R1
+!i10b 1
+!s100 _VBMEf4SJmm`BE`nXKY=C0
+Ie_9Pc8]c;lFMj9>[BgSYC2
+R2
+R0
+w1694633289
+8D:/intelFPGA_lite/17.0/alu/alu_tb.v
+FD:/intelFPGA_lite/17.0/alu/alu_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/alu/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/alu_tb.v|
+!i113 1
+R5
+R6
+R7
+vcsa_16
+R1
+!i10b 1
+!s100 H9Y`]4DPN>V=hOb?>6F_53
+IW7TlK93[lgb]nfVFfZe=70
+R2
+R0
+Z8 w1694650964
+Z9 8D:/intelFPGA_lite/17.0/alu/csa_16.v
+Z10 FD:/intelFPGA_lite/17.0/alu/csa_16.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 D:/intelFPGA_lite/17.0/alu/csa_16.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/csa_16.v|
+!i113 1
+R5
+R6
+R7
+vcsa_16_overflow
+R1
+!i10b 1
+!s100 RIW_7ga>F^1zmDA:D>e:Q0
+Ih6DYX_e559HZc7UP[SM5F2
+R2
+R0
+R8
+R9
+R10
+Z13 L0 21
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+vcsa_32
+R1
+!i10b 1
+!s100 0TV48>Pn?6[?P53Rz7<]f3
+IB0`^B=cee66`AKDXNC>ne3
+R2
+R0
+w1694650973
+8D:/intelFPGA_lite/17.0/alu/csa_32.v
+FD:/intelFPGA_lite/17.0/alu/csa_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/alu/csa_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/csa_32.v|
+!i113 1
+R5
+R6
+R7
+vfull_adder
+R1
+!i10b 1
+!s100 3bP0MB]hU80DIKPiFCh<^0
+IVaNVMgC<DfoJNHfK=D6oK1
+R2
+R0
+w1694642275
+8D:/intelFPGA_lite/17.0/alu/full_adder.v
+FD:/intelFPGA_lite/17.0/alu/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/alu/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/full_adder.v|
+!i113 1
+R5
+R6
+R7
+vmux
+R1
+!i10b 1
+!s100 Xa3N[LF87VQPBfbRMBID>0
+IVHA`GeSFe?J>_A_]iNfWQ2
+R2
+R0
+Z14 w1694653238
+Z15 8D:/intelFPGA_lite/17.0/alu/mux.v
+Z16 FD:/intelFPGA_lite/17.0/alu/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z17 !s107 D:/intelFPGA_lite/17.0/alu/mux.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/mux.v|
+!i113 1
+R5
+R6
+R7
+vmux_16
+R1
+!i10b 1
+!s100 [Sd86^WhEdFQF74AC[GM02
+I1O[G2e=Mn^R9R4@H3YR[93
+R2
+R0
+R14
+R15
+R16
+L0 14
+R3
+r1
+!s85 0
+31
+R4
+R17
+R18
+!i113 1
+R5
+R6
+R7
+vmux_32
+R1
+!i10b 1
+!s100 ibN`E603o1FK^Jlg9Sd>b2
+I9YA]9Km_@bb2<Xl^oGi<a1
+R2
+R0
+R14
+R15
+R16
+R13
+R3
+r1
+!s85 0
+31
+R4
+R17
+R18
+!i113 1
+R5
+R6
+R7
+vmux_8
+R1
+!i10b 1
+!s100 ;PgO;Md9VP^jSi:GFSnR`2
+ImAAa]JFQb[N5PGj2]973>3
+R2
+R0
+R14
+R15
+R16
+L0 7
+R3
+r1
+!s85 0
+31
+R4
+R17
+R18
+!i113 1
+R5
+R6
+R7
+vrca_8
+R1
+!i10b 1
+!s100 lcEFeLgSCLEzz5NlkDBA92
+Ii5Cn]7UBQTaM;F9Y>Bc^H1
+R2
+R0
+Z19 w1694644741
+Z20 8D:/intelFPGA_lite/17.0/alu/rca_8.v
+Z21 FD:/intelFPGA_lite/17.0/alu/rca_8.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z22 !s107 D:/intelFPGA_lite/17.0/alu/rca_8.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/rca_8.v|
+!i113 1
+R5
+R6
+R7
+vrca_8_overflow
+R1
+!i10b 1
+!s100 ?am7Ub7`RVJgm4A2EfOS01
+Ig0D^oHNXb<fi>KkKCiBk72
+R2
+R0
+R19
+R20
+R21
+L0 23
+R3
+r1
+!s85 0
+31
+R4
+R22
+R23
+!i113 1
+R5
+R6
+R7
+vxor_32_1
+R1
+!i10b 1
+!s100 iO@0458`1aZg;JUf3NUOg2
+I@1If_C7lkd>=2MkamlTMd0
+R2
+R0
+w1694640777
+8D:/intelFPGA_lite/17.0/alu/xor_32_1.v
+FD:/intelFPGA_lite/17.0/alu/xor_32_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/alu/xor_32_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/xor_32_1.v|
+!i113 1
+R5
+R6
+R7

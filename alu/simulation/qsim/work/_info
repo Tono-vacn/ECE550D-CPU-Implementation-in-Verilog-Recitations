@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/17.0/alu/simulation/qsim
+vcsa_16
+Z1 !s110 1694651334
+!i10b 1
+!s100 91z`7cYDI6PA=Df>d6HjA2
+IOd]<]4`SY@>8PA`;H6nKF0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1694651333
+Z3 8alu.vo
+Z4 Falu.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1694651334.000000
+Z8 !s107 alu.vo|
+Z9 !s90 -work|work|alu.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcsa_16_vlg_vec_tst
+R1
+!i10b 1
+!s100 U;nD`<LZcUnBfYL`A@43i3
+I6cfoNZVm8kf>F;9AXlbeO3
+R2
+R0
+w1694651331
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z12 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+vcsa_32
+Z13 !s110 1694652297
+!i10b 1
+!s100 BWjZzn8WYHboz0_`>`6aB3
+IMWd_Ic^]g4Vah:^8_a<N01
+R2
+R0
+w1694652296
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1694652297.000000
+R8
+R9
+!i113 1
+R10
+R11
+vcsa_32_vlg_vec_tst
+R13
+!i10b 1
+!s100 8Enzgc>WfLo^JJ8f1bPF=3
+INZFd6GNC8DdUn[;dFTeLA1
+R2
+R0
+w1694652294
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+R11
+vrca_16
+Z15 !s110 1694642504
+!i10b 1
+!s100 7VRnD;@IKjA`S4TNPLl_42
+I0VSbJ7i^HgZ_j:CCN:Gf:3
+R2
+R0
+w1694642501
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1694642504.000000
+R8
+R9
+!i113 1
+R10
+R11
+vrca_16_vlg_vec_tst
+R15
+!i10b 1
+!s100 @R0jhfMa:7R3zf?97]ATa2
+I]YY4ho<_@HO?U:iHm?g<I2
+R2
+R0
+w1694642500
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+vrca_8
+Z17 !s110 1694642923
+!i10b 1
+!s100 17`dKU[V_E?<2WQB>MR0h1
+I=IHcRzC8^YTbngOmhbM?N2
+R2
+R0
+w1694642922
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z18 !s108 1694642923.000000
+R8
+R9
+!i113 1
+R10
+R11
+vrca_8_vlg_vec_tst
+R17
+!i10b 1
+!s100 oS0=IOziI]zj]3Id<a@RW2
+IFLccNiSjjXCgJo68=[_:M2
+R2
+R0
+w1694642921
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R18
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vsll
+Z19 !s110 1694668147
+!i10b 1
+!s100 Qi4YKDHYNEJU4B4d;Zn4S0
+IX5A@4FEIQTB;::3e;nFCA2
+R2
+R0
+Z20 w1694668146
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z21 !s108 1694668147.000000
+R8
+R9
+!i113 1
+R10
+R11
+vsll_vlg_vec_tst
+R19
+!i10b 1
+!s100 gWD:VcZInh_=iN@mGh6Fn3
+I`hk[hfnb^X2g0QMDV=gX91
+R2
+R0
+R20
+8Waveform6.vwf.vt
+FWaveform6.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R21
+!s107 Waveform6.vwf.vt|
+!s90 -work|work|Waveform6.vwf.vt|
+!i113 1
+R10
+R11
+vsra
+Z22 !s110 1694669555
+!i10b 1
+!s100 C@OUSKZmLRZV`?XmTaJVY3
+ILAz3jN=^oo11CIcXGT<2o2
+R2
+R0
+Z23 w1694669554
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z24 !s108 1694669555.000000
+R8
+R9
+!i113 1
+R10
+R11
+vsra_vlg_vec_tst
+R22
+!i10b 1
+!s100 38GJQCJ9<Mi0GAN??1dih3
+IB=C^NfIn;EO5kUehDLf=`0
+R2
+R0
+R23
+8Waveform7.vwf.vt
+FWaveform7.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R24
+!s107 Waveform7.vwf.vt|
+!s90 -work|work|Waveform7.vwf.vt|
+!i113 1
+R10
+R11

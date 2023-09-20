@@ -1,0 +1,53 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_me",
+					"strict" : false
+				},
+				{
+					"name" : "out_mo",
+					"strict" : false
+				},
+				{
+					"name" : "me_reg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "me_reg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "me_reg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mo_reg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mo_reg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mo_reg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "w",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

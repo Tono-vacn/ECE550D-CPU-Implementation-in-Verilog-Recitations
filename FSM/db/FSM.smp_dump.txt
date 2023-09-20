@@ -1,0 +1,11 @@
+
+State Machine - |FSM|mo_reg
+Name mo_reg.mo_7 mo_reg.mo_6 mo_reg.mo_5 mo_reg.mo_4 mo_reg.mo_3 mo_reg.mo_2 mo_reg.mo_1 mo_reg.mo_0 
+mo_reg.mo_0 0 0 0 0 0 0 0 0 
+mo_reg.mo_1 0 0 0 0 0 0 1 1 
+mo_reg.mo_2 0 0 0 0 0 1 0 1 
+mo_reg.mo_3 0 0 0 0 1 0 0 1 
+mo_reg.mo_4 0 0 0 1 0 0 0 1 
+mo_reg.mo_5 0 0 1 0 0 0 0 1 
+mo_reg.mo_6 0 1 0 0 0 0 0 1 
+mo_reg.mo_7 1 0 0 0 0 0 0 1 

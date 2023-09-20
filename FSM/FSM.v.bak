@@ -1,0 +1,7 @@
+module FSM(clk, reset, w, count, state);
+
+typedef enum {S0, S1, S2, S3, S4, S5, S6, S7} states_t;
+
+states_t current_state, next_state;
+
+endmodule

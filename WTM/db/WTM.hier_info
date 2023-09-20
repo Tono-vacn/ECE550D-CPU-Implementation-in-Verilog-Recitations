@@ -1,0 +1,498 @@
+|WTM
+A[0] => comb.IN0
+A[0] => comb.IN0
+A[0] => comb.IN0
+A[0] => comb.IN0
+A[0] => comb.IN0
+A[1] => comb.IN0
+A[1] => comb.IN0
+A[1] => comb.IN0
+A[1] => comb.IN0
+A[1] => comb.IN0
+A[2] => comb.IN0
+A[2] => comb.IN0
+A[2] => comb.IN0
+A[2] => comb.IN0
+A[2] => comb.IN0
+A[3] => comb.IN0
+A[3] => comb.IN0
+A[3] => comb.IN0
+A[3] => comb.IN0
+A[3] => comb.IN0
+A[4] => comb.IN0
+A[4] => comb.IN0
+A[4] => comb.IN0
+A[4] => comb.IN0
+A[4] => comb.IN0
+B[0] => comb.IN1
+B[0] => comb.IN1
+B[0] => comb.IN1
+B[0] => comb.IN1
+B[0] => comb.IN1
+B[1] => comb.IN1
+B[1] => comb.IN1
+B[1] => comb.IN1
+B[1] => comb.IN1
+B[1] => comb.IN1
+B[2] => comb.IN1
+B[2] => comb.IN1
+B[2] => comb.IN1
+B[2] => comb.IN1
+B[2] => comb.IN1
+B[3] => comb.IN1
+B[3] => comb.IN1
+B[3] => comb.IN1
+B[3] => comb.IN1
+B[3] => comb.IN1
+B[4] => comb.IN1
+B[4] => comb.IN1
+B[4] => comb.IN1
+B[4] => comb.IN1
+B[4] => comb.IN1
+P[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+P[1] <= HA:ha1.port2
+P[2] <= HA:ha3.port2
+P[3] <= HA:ha4.port2
+P[4] <= HA:ha5.port2
+P[5] <= FA:fa12.port3
+P[6] <= FA:fa13.port3
+P[7] <= FA:fa14.port3
+P[8] <= FA:fa15.port3
+P[9] <= FA:fa15.port4
+
+
+|WTM|HA:ha1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa1
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa1|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa1|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa2
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa2|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa2|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa3
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa3|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa3|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|HA:ha2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|HA:ha3
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa4
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa4|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa4|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa5
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa5|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa5|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa6
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa6|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa6|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa7
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa7|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa7|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|HA:ha4
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa8
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa8|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa8|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa9
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa9|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa9|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa10
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa10|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa10|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa11
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa11|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa11|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|HA:ha5
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa12
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa12|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa12|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa13
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa13|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa13|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa14
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa14|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa14|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa15
+A => A.IN1
+B => B.IN1
+Cin => Cin.IN1
+Sum <= HA:HA2.sum
+Cout <= or1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa15|HA:HA1
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|WTM|FA:fa15|HA:HA2
+a => xor1.IN0
+a => and1.IN0
+b => xor1.IN1
+b => and1.IN1
+sum <= xor1.DB_MAX_OUTPUT_PORT_TYPE
+carry <= and1.DB_MAX_OUTPUT_PORT_TYPE
+
+
