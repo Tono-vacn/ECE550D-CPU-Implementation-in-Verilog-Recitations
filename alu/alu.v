@@ -17,10 +17,10 @@ module alu(data_operandA, data_operandB, ctrl_ALUopcode, ctrl_shiftamt, data_res
 	//csa_32 csa_add_sub(data_operandA,data_operandB_flipped, flag_as, csa_result, cout, overflow);
 	csa_32 csa_add_sub(data_operandA,data_operandB_flipped, flag_as, data_result, cout, overflow);
 	
-	//sll sll_res(data_operandA,ctrl_shiftamt, sll_result);
-	//sra sra_res(data_operandA,ctrl_shiftamt, sra_result);
+	sll sll_res(data_operandA,ctrl_shiftamt, sll_result);
+	sra sra_res(data_operandA,ctrl_shiftamt, sra_result);
 	
-	//zero_det zero_check(csa_result, isNotEqual);
-	//assign isLessThan = overflow?data_operandA[31]:csa_result[31];
+	zero_det zero_check(csa_result, isNotEqual);
+	assign isLessThan = overflow?data_operandA[31]:csa_result[31];
 	
 endmodule
