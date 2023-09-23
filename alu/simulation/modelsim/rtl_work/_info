@@ -7,113 +7,135 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/intelFPGA_lite/17.0/alu/simulation/modelsim
+Z0 dD:/intelFPGA_lite/17.0/ECE550D/alu/simulation/modelsim
 valu
-Z1 !s110 1695071640
+Z1 !s110 1695435794
 !i10b 1
-!s100 8_B<gTDRVoAFO00Y;IR;Q0
-I;EQZ?]bWhc2;D[A0k_P6H2
+!s100 W3J<Tk9gPAbU8>CmmicmQ3
+IAkJmR>2ENJEQINHBKmd<Q3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1695071454
-8D:/intelFPGA_lite/17.0/alu/alu.v
-FD:/intelFPGA_lite/17.0/alu/alu.v
+w1695434668
+8D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/alu.v
 L0 1
 Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1695071640.000000
-!s107 D:/intelFPGA_lite/17.0/alu/alu.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/alu.v|
+Z4 !s108 1695435794.000000
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v|
 !i113 1
 Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu
+Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu
 Z7 tCvgOpt 0
 valu_tb
-R1
+Z8 !s110 1695435795
 !i10b 1
-!s100 _VBMEf4SJmm`BE`nXKY=C0
-Ie_9Pc8]c;lFMj9>[BgSYC2
+!s100 ekX@Y6GSOh1<RLi8QSfPj3
+I1GFen@Am=Dbh7o5OPDi[>2
 R2
 R0
-w1694633289
-8D:/intelFPGA_lite/17.0/alu/alu_tb.v
-FD:/intelFPGA_lite/17.0/alu/alu_tb.v
+w1695435761
+8D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v
 L0 3
 R3
 r1
 !s85 0
 31
+Z9 !s108 1695435795.000000
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v|
+!i113 1
+R5
+R6
+R7
+vand_32
+R1
+!i10b 1
+!s100 6<ZGk4K2B1;f:9G?2HGIm2
+I`FU:=3aL?;<dnQJTkU34_3
+R2
+R0
+w1694640771
+8D:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v
+L0 1
+R3
+r1
+!s85 0
+31
 R4
-!s107 D:/intelFPGA_lite/17.0/alu/alu_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/alu_tb.v|
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v|
 !i113 1
 R5
 R6
 R7
 vcsa_16
-R1
+R8
 !i10b 1
 !s100 H9Y`]4DPN>V=hOb?>6F_53
-IW7TlK93[lgb]nfVFfZe=70
+I4H?0BdclW7ckoX:5__==f0
 R2
 R0
-Z8 w1694650964
-Z9 8D:/intelFPGA_lite/17.0/alu/csa_16.v
-Z10 FD:/intelFPGA_lite/17.0/alu/csa_16.v
+Z10 w1694650964
+Z11 8D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v
+Z12 FD:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-Z11 !s107 D:/intelFPGA_lite/17.0/alu/csa_16.v|
-Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/csa_16.v|
+R9
+Z13 !s107 D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v|
+Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v|
 !i113 1
 R5
 R6
 R7
 vcsa_16_overflow
-R1
+R8
 !i10b 1
 !s100 RIW_7ga>F^1zmDA:D>e:Q0
-Ih6DYX_e559HZc7UP[SM5F2
+I<ZOVzdf^Xonm0<O`CjKTK3
 R2
 R0
-R8
-R9
 R10
-Z13 L0 21
+R11
+R12
+Z15 L0 21
 R3
 r1
 !s85 0
 31
-R4
-R11
-R12
+R9
+R13
+R14
 !i113 1
 R5
 R6
 R7
 vcsa_32
-R1
+R8
 !i10b 1
 !s100 0TV48>Pn?6[?P53Rz7<]f3
-IB0`^B=cee66`AKDXNC>ne3
+I@[o<X38<lKB2HNfE58jXF1
 R2
 R0
 w1694650973
-8D:/intelFPGA_lite/17.0/alu/csa_32.v
-FD:/intelFPGA_lite/17.0/alu/csa_32.v
+8D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-!s107 D:/intelFPGA_lite/17.0/alu/csa_32.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/csa_32.v|
+R9
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v|
 !i113 1
 R5
 R6
@@ -122,174 +144,350 @@ vfull_adder
 R1
 !i10b 1
 !s100 3bP0MB]hU80DIKPiFCh<^0
-IVaNVMgC<DfoJNHfK=D6oK1
+I]l9Q2?Jn0RP3_o>O9ZN3O1
 R2
 R0
 w1694642275
-8D:/intelFPGA_lite/17.0/alu/full_adder.v
-FD:/intelFPGA_lite/17.0/alu/full_adder.v
+8D:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v
 L0 1
 R3
 r1
 !s85 0
 31
 R4
-!s107 D:/intelFPGA_lite/17.0/alu/full_adder.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/full_adder.v|
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v|
 !i113 1
 R5
 R6
 R7
 vmux
-R1
+R8
 !i10b 1
 !s100 Xa3N[LF87VQPBfbRMBID>0
-IVHA`GeSFe?J>_A_]iNfWQ2
+I7I[oU:Zk6F`?_VUR9l_]32
 R2
 R0
-Z14 w1694653238
-Z15 8D:/intelFPGA_lite/17.0/alu/mux.v
-Z16 FD:/intelFPGA_lite/17.0/alu/mux.v
+Z16 w1695434721
+Z17 8D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v
+Z18 FD:/intelFPGA_lite/17.0/ECE550D/alu/mux.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-Z17 !s107 D:/intelFPGA_lite/17.0/alu/mux.v|
-Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/mux.v|
+R9
+Z19 !s107 D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v|
+Z20 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v|
 !i113 1
 R5
 R6
 R7
 vmux_16
-R1
+R8
 !i10b 1
 !s100 [Sd86^WhEdFQF74AC[GM02
-I1O[G2e=Mn^R9R4@H3YR[93
+IoG5f_RVXHDfe4_gb3dnPi3
 R2
 R0
-R14
-R15
 R16
+R17
+R18
 L0 14
 R3
 r1
 !s85 0
 31
-R4
-R17
-R18
+R9
+R19
+R20
 !i113 1
 R5
 R6
 R7
 vmux_32
-R1
+R8
 !i10b 1
 !s100 ibN`E603o1FK^Jlg9Sd>b2
-I9YA]9Km_@bb2<Xl^oGi<a1
+I0A3A=OXI=n<kESEA7jK]E3
 R2
 R0
-R14
-R15
 R16
-R13
+R17
+R18
+R15
 R3
 r1
 !s85 0
 31
-R4
+R9
+R19
+R20
+!i113 1
+R5
+R6
+R7
+vmux_32_5
+R8
+!i10b 1
+!s100 L[O?@N>R^SLhB:gMccIhE1
+Iz0m?8TSKf_6LW`<5d_[JL1
+R2
+R0
+R16
 R17
 R18
+Z21 L0 28
+R3
+r1
+!s85 0
+31
+R9
+R19
+R20
 !i113 1
 R5
 R6
 R7
 vmux_8
-R1
+R8
 !i10b 1
 !s100 ;PgO;Md9VP^jSi:GFSnR`2
-ImAAa]JFQb[N5PGj2]973>3
+I4@6e1I^QcfM@h_<haXz[A3
 R2
 R0
-R14
-R15
 R16
+R17
+R18
 L0 7
 R3
 r1
 !s85 0
 31
+R9
+R19
+R20
+!i113 1
+R5
+R6
+R7
+vor_16
+R8
+!i10b 1
+!s100 =WT6e71an:JoM1B;Z`h]T1
+IfX[Vko1LP>eVlm;BPn6WX0
+R2
+R0
+Z22 w1694921027
+Z23 8D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v
+Z24 FD:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v
+L0 10
+R3
+r1
+!s85 0
+31
+R9
+Z25 !s107 D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v|
+Z26 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v|
+!i113 1
+R5
+R6
+R7
+vor_32
+R8
+!i10b 1
+!s100 SBo8K13M]HK?3YZCPDCH^0
+Io[aW7ol5PKn[eGni<^0RR2
+R2
+R0
+w1694640782
+8D:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v
+L0 1
+R3
+r1
+!s85 0
+31
 R4
-R17
-R18
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v|
+!i113 1
+R5
+R6
+R7
+vor_4
+R8
+!i10b 1
+!s100 _b79zB^ALb_TR`CM`Jig12
+IMn0R2KaYml46[?@S[4S9=3
+R2
+R0
+R22
+R23
+R24
+R21
+R3
+r1
+!s85 0
+31
+R9
+R25
+R26
+!i113 1
+R5
+R6
+R7
+vor_8
+R8
+!i10b 1
+!s100 I_cPdUEWZ:zd_Hk4ABFOW2
+ISPJ8i]b@<V7j^?2PCCQoo2
+R2
+R0
+R22
+R23
+R24
+L0 19
+R3
+r1
+!s85 0
+31
+R9
+R25
+R26
 !i113 1
 R5
 R6
 R7
 vrca_8
-R1
+R8
 !i10b 1
 !s100 lcEFeLgSCLEzz5NlkDBA92
-Ii5Cn]7UBQTaM;F9Y>Bc^H1
+IYe_7YUNgllNT]kNUFaYaX2
 R2
 R0
-Z19 w1694644741
-Z20 8D:/intelFPGA_lite/17.0/alu/rca_8.v
-Z21 FD:/intelFPGA_lite/17.0/alu/rca_8.v
+Z27 w1694644741
+Z28 8D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v
+Z29 FD:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-Z22 !s107 D:/intelFPGA_lite/17.0/alu/rca_8.v|
-Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/rca_8.v|
+R9
+Z30 !s107 D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v|
+Z31 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v|
 !i113 1
 R5
 R6
 R7
 vrca_8_overflow
-R1
+R8
 !i10b 1
 !s100 ?am7Ub7`RVJgm4A2EfOS01
-Ig0D^oHNXb<fi>KkKCiBk72
+I8TXP28Qm8IEMO[=G6];B:3
 R2
 R0
-R19
-R20
-R21
+R27
+R28
+R29
 L0 23
 R3
 r1
 !s85 0
 31
-R4
-R22
-R23
+R9
+R30
+R31
 !i113 1
 R5
 R6
 R7
-vxor_32_1
-R1
+vsll
+R8
 !i10b 1
-!s100 iO@0458`1aZg;JUf3NUOg2
-I@1If_C7lkd>=2MkamlTMd0
+!s100 fOgdjGVU`KaW7ZREf[zIW1
+I8GVNS[Xi]og8C4c>dIF:l3
 R2
 R0
-w1694640777
-8D:/intelFPGA_lite/17.0/alu/xor_32_1.v
-FD:/intelFPGA_lite/17.0/alu/xor_32_1.v
+w1694668079
+8D:/intelFPGA_lite/17.0/ECE550D/alu/sll.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/sll.v
 L0 1
 R3
 r1
 !s85 0
 31
-R4
-!s107 D:/intelFPGA_lite/17.0/alu/xor_32_1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/alu|D:/intelFPGA_lite/17.0/alu/xor_32_1.v|
+R9
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/sll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/sll.v|
+!i113 1
+R5
+R6
+R7
+vsra
+R8
+!i10b 1
+!s100 C@gk7dgoZLUAeXfGPcePG3
+IOTlIzD5S7]>0i]4C>=K0b1
+R2
+R0
+w1694669523
+8D:/intelFPGA_lite/17.0/ECE550D/alu/sra.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/sra.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/sra.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/sra.v|
+!i113 1
+R5
+R6
+R7
+vxor_32_1
+R8
+!i10b 1
+!s100 iO@0458`1aZg;JUf3NUOg2
+IZF2cazb=ZL3TnDKL7V8Ik1
+R2
+R0
+w1694640777
+8D:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v
+FD:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu|D:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v|
+!i113 1
+R5
+R6
+R7
+vzero_det
+R8
+!i10b 1
+!s100 SSX`6<^DEen8=RMY?4jnL3
+I;Q2z]nU7d`kUcJ3gRa@;U0
+R2
+R0
+R22
+R23
+R24
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+R25
+R26
 !i113 1
 R5
 R6

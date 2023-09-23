@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu
-Mon Sep 18 17:11:33 2023
+Fri Sep 22 22:22:56 2023
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -15,16 +15,47 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
   9. Multiplexer Restructuring Statistics (Restructuring Performed)
- 10. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_1"
- 11. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1"
- 12. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0"
- 13. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_0"
- 14. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1"
- 15. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0"
- 16. Port Connectivity Checks: "csa_32:csa_add_sub"
- 17. Post-Synthesis Netlist Statistics for Top Partition
- 18. Elapsed Time Per Partition
- 19. Analysis & Synthesis Messages
+ 10. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[15].mx6"
+ 11. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[14].mx6"
+ 12. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[13].mx6"
+ 13. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[12].mx6"
+ 14. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[11].mx6"
+ 15. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[10].mx6"
+ 16. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[9].mx6"
+ 17. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[8].mx6"
+ 18. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[7].mx6"
+ 19. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[6].mx6"
+ 20. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[5].mx6"
+ 21. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[4].mx6"
+ 22. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[3].mx6"
+ 23. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[2].mx6"
+ 24. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[1].mx6"
+ 25. Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[0].mx6"
+ 26. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[7].mx2"
+ 27. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[6].mx2"
+ 28. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[5].mx2"
+ 29. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[4].mx2"
+ 30. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[3].mx2"
+ 31. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[2].mx2"
+ 32. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[1].mx2"
+ 33. Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[0].mx2"
+ 34. Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[3].mx2"
+ 35. Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[2].mx2"
+ 36. Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[1].mx2"
+ 37. Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[0].mx2"
+ 38. Port Connectivity Checks: "sll:sll_res|mux:loop_j[1].loop_sll_1_0[1].mx2"
+ 39. Port Connectivity Checks: "sll:sll_res|mux:loop_j[1].loop_sll_1_0[0].mx2"
+ 40. Port Connectivity Checks: "sll:sll_res|mux:mx0"
+ 41. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_1"
+ 42. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1"
+ 43. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0"
+ 44. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16_overflow:c1_0"
+ 45. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1"
+ 46. Port Connectivity Checks: "csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0"
+ 47. Port Connectivity Checks: "csa_32:csa_add_sub"
+ 48. Post-Synthesis Netlist Statistics for Top Partition
+ 49. Elapsed Time Per Partition
+ 50. Analysis & Synthesis Messages
 
 
 
@@ -51,13 +82,13 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Sep 18 17:11:33 2023       ;
+; Analysis & Synthesis Status        ; Successful - Fri Sep 22 22:22:56 2023       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; alu                                         ;
 ; Top-level Entity Name              ; alu                                         ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 114                                         ;
-;     Total combinational functions  ; 114                                         ;
+; Total logic elements               ; 504                                         ;
+;     Total combinational functions  ; 504                                         ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
 ; Total pins                         ; 109                                         ;
@@ -170,19 +201,24 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                          ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path            ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
-; alu.v                            ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/alu/alu.v        ;         ;
-; full_adder.v                     ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/alu/full_adder.v ;         ;
-; xor_32_1.v                       ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/alu/xor_32_1.v   ;         ;
-; rca_8.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/alu/rca_8.v      ;         ;
-; csa_32.v                         ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/alu/csa_32.v     ;         ;
-; mux.v                            ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/alu/mux.v        ;         ;
-; csa_16.v                         ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/alu/csa_16.v     ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                  ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                    ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------+---------+
+; alu.v                            ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v        ;         ;
+; full_adder.v                     ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v ;         ;
+; and_32.v                         ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v     ;         ;
+; or_32.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v      ;         ;
+; xor_32_1.v                       ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v   ;         ;
+; rca_8.v                          ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v      ;         ;
+; csa_32.v                         ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v     ;         ;
+; mux.v                            ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v        ;         ;
+; csa_16.v                         ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v     ;         ;
+; sll.v                            ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/sll.v        ;         ;
+; sra.v                            ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/sra.v        ;         ;
+; zero_det.v                       ; yes             ; User Verilog HDL File  ; D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v   ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------------------+
@@ -190,16 +226,16 @@ agreement for further details.
 +---------------------------------------------+-------------------------+
 ; Resource                                    ; Usage                   ;
 +---------------------------------------------+-------------------------+
-; Estimated Total logic elements              ; 114                     ;
+; Estimated Total logic elements              ; 504                     ;
 ;                                             ;                         ;
-; Total combinational functions               ; 114                     ;
+; Total combinational functions               ; 504                     ;
 ; Logic element usage by number of LUT inputs ;                         ;
-;     -- 4 input functions                    ; 78                      ;
-;     -- 3 input functions                    ; 29                      ;
-;     -- <=2 input functions                  ; 7                       ;
+;     -- 4 input functions                    ; 288                     ;
+;     -- 3 input functions                    ; 199                     ;
+;     -- <=2 input functions                  ; 17                      ;
 ;                                             ;                         ;
 ; Logic elements by mode                      ;                         ;
-;     -- normal mode                          ; 114                     ;
+;     -- normal mode                          ; 504                     ;
 ;     -- arithmetic mode                      ; 0                       ;
 ;                                             ;                         ;
 ; Total registers                             ; 0                       ;
@@ -211,87 +247,220 @@ agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0                       ;
 ;                                             ;                         ;
 ; Maximum fan-out node                        ; ctrl_ALUopcode[0]~input ;
-; Maximum fan-out                             ; 85                      ;
-; Total fan-out                               ; 555                     ;
-; Average fan-out                             ; 1.67                    ;
+; Maximum fan-out                             ; 111                     ;
+; Total fan-out                               ; 1927                    ;
+; Average fan-out                             ; 2.67                    ;
 +---------------------------------------------+-------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                ;
-+------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+-----------------+--------------+
-; Compilation Hierarchy Node               ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                         ; Entity Name     ; Library Name ;
-+------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+-----------------+--------------+
-; |alu                                     ; 114 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 109  ; 0            ; |alu                                                                                        ; alu             ; work         ;
-;    |csa_32:csa_add_sub|                  ; 108 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub                                                                     ; csa_32          ; work         ;
-;       |csa_16:c0|                        ; 46 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0                                                           ; csa_16          ; work         ;
-;          |mux:s_cout|                    ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|mux:s_cout                                                ; mux             ; work         ;
-;          |mux_8:s_sum|                   ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|mux_8:s_sum                                               ; mux_8           ; work         ;
-;          |rca_8:r0|                      ; 16 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0                                                  ; rca_8           ; work         ;
-;             |full_adder:fa0|             ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:fa0                                   ; full_adder      ; work         ;
-;             |full_adder:fa1|             ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:fa1                                   ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[1].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[1].fa                       ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[2].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[2].fa                       ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[3].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[3].fa                       ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[4].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[4].fa                       ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[5].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[5].fa                       ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[6].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[6].fa                       ; full_adder      ; work         ;
-;          |rca_8:r1_0|                    ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0                                                ; rca_8           ; work         ;
-;             |full_adder:fa0|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:fa0                                 ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[1].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[1].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[2].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[2].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[3].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[3].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[4].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[4].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[5].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[5].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[6].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[6].fa                     ; full_adder      ; work         ;
-;          |rca_8:r1_1|                    ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1                                                ; rca_8           ; work         ;
-;             |full_adder:fa1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:fa1                                 ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[1].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[1].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[2].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[2].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[3].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[3].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[4].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[4].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[5].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[5].fa                     ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[6].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[6].fa                     ; full_adder      ; work         ;
-;       |csa_16_overflow:c1_0|             ; 28 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0                                                ; csa_16_overflow ; work         ;
-;          |rca_8:r0|                      ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0                                       ; rca_8           ; work         ;
-;             |full_adder:fa0|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:fa0                        ; full_adder      ; work         ;
-;             |full_adder:fa1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:fa1                        ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[1].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[1].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[2].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[2].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[3].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[3].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[4].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[4].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[5].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[5].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[6].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[6].fa            ; full_adder      ; work         ;
-;          |rca_8_overflow:r1_0|           ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0                            ; rca_8_overflow  ; work         ;
-;             |full_adder:fa0|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:fa0             ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[1].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[1].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[2].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[2].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[3].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[3].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[4].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[4].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[5].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[5].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[6].fa| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[6].fa ; full_adder      ; work         ;
-;          |rca_8_overflow:r1_1|           ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1                            ; rca_8_overflow  ; work         ;
-;             |full_adder:fa1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:fa1             ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[1].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[1].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[2].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[2].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[3].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[3].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[4].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[4].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[5].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[5].fa ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[6].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[6].fa ; full_adder      ; work         ;
-;       |csa_16_overflow:c1_1|             ; 15 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1                                                ; csa_16_overflow ; work         ;
-;          |mux_8:s_sum|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|mux_8:s_sum                                    ; mux_8           ; work         ;
-;          |rca_8:r0|                      ; 14 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0                                       ; rca_8           ; work         ;
-;             |full_adder:fa1|             ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:fa1                        ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[1].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[1].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[2].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[2].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[3].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[3].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[4].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[4].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[5].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[5].fa            ; full_adder      ; work         ;
-;             |full_adder:loop_rca8[6].fa| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[6].fa            ; full_adder      ; work         ;
-;       |mux:s_of|                         ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|mux:s_of                                                            ; mux             ; work         ;
-;       |mux_16:s_sum|                     ; 17 (17)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|mux_16:s_sum                                                        ; mux_16          ; work         ;
-;    |xor_32_1:flipB|                      ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|xor_32_1:flipB                                                                         ; xor_32_1        ; work         ;
-+------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+-----------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                  ;
++--------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+-----------------+--------------+
+; Compilation Hierarchy Node                 ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                         ; Entity Name     ; Library Name ;
++--------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+-----------------+--------------+
+; |alu                                       ; 504 (1)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 109  ; 0            ; |alu                                                                                        ; alu             ; work         ;
+;    |csa_32:csa_add_sub|                    ; 106 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub                                                                     ; csa_32          ; work         ;
+;       |csa_16:c0|                          ; 45 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0                                                           ; csa_16          ; work         ;
+;          |mux:s_cout|                      ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|mux:s_cout                                                ; mux             ; work         ;
+;          |mux_8:s_sum|                     ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|mux_8:s_sum                                               ; mux_8           ; work         ;
+;          |rca_8:r0|                        ; 15 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0                                                  ; rca_8           ; work         ;
+;             |full_adder:fa0|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:fa0                                   ; full_adder      ; work         ;
+;             |full_adder:fa1|               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:fa1                                   ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[1].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[1].fa                       ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[2].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[2].fa                       ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[3].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[3].fa                       ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[4].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[4].fa                       ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[5].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[5].fa                       ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[6].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:loop_rca8[6].fa                       ; full_adder      ; work         ;
+;          |rca_8:r1_0|                      ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0                                                ; rca_8           ; work         ;
+;             |full_adder:fa0|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:fa0                                 ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[1].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[1].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[2].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[2].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[3].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[3].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[4].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[4].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[5].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[5].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[6].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_0|full_adder:loop_rca8[6].fa                     ; full_adder      ; work         ;
+;          |rca_8:r1_1|                      ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1                                                ; rca_8           ; work         ;
+;             |full_adder:fa1|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:fa1                                 ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[1].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[1].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[2].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[2].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[3].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[3].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[4].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[4].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[5].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[5].fa                     ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[6].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16:c0|rca_8:r1_1|full_adder:loop_rca8[6].fa                     ; full_adder      ; work         ;
+;       |csa_16_overflow:c1_0|               ; 28 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0                                                ; csa_16_overflow ; work         ;
+;          |rca_8:r0|                        ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0                                       ; rca_8           ; work         ;
+;             |full_adder:fa0|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:fa0                        ; full_adder      ; work         ;
+;             |full_adder:fa1|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:fa1                        ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[1].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[1].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[2].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[2].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[3].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[3].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[4].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[4].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[5].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[5].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[6].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8:r0|full_adder:loop_rca8[6].fa            ; full_adder      ; work         ;
+;          |rca_8_overflow:r1_0|             ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0                            ; rca_8_overflow  ; work         ;
+;             |full_adder:fa0|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:fa0             ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[1].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[1].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[2].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[2].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[3].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[3].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[4].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[4].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[5].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[5].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[6].fa|   ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0|full_adder:loop_rca8[6].fa ; full_adder      ; work         ;
+;          |rca_8_overflow:r1_1|             ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1                            ; rca_8_overflow  ; work         ;
+;             |full_adder:fa1|               ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:fa1             ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[1].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[1].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[2].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[2].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[3].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[3].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[4].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[4].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[5].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[5].fa ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[6].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_1|full_adder:loop_rca8[6].fa ; full_adder      ; work         ;
+;       |csa_16_overflow:c1_1|               ; 15 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1                                                ; csa_16_overflow ; work         ;
+;          |mux_8:s_sum|                     ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|mux_8:s_sum                                    ; mux_8           ; work         ;
+;          |rca_8:r0|                        ; 14 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0                                       ; rca_8           ; work         ;
+;             |full_adder:fa1|               ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:fa1                        ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[1].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[1].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[2].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[2].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[3].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[3].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[4].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[4].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[5].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[5].fa            ; full_adder      ; work         ;
+;             |full_adder:loop_rca8[6].fa|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|csa_16_overflow:c1_1|rca_8:r0|full_adder:loop_rca8[6].fa            ; full_adder      ; work         ;
+;       |mux:s_of|                           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|mux:s_of                                                            ; mux             ; work         ;
+;       |mux_16:s_sum|                       ; 16 (16)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|csa_32:csa_add_sub|mux_16:s_sum                                                        ; mux_16          ; work         ;
+;    |mux_32_5:outdata|                      ; 183 (181)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_32_5:outdata                                                                       ; mux_32_5        ; work         ;
+;       |mux_32:from_sll_sra|                ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|mux_32_5:outdata|mux_32:from_sll_sra                                                   ; mux_32          ; work         ;
+;    |sll:sll_res|                           ; 99 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res                                                                            ; sll             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[10].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[10].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[11].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[11].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[12].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[12].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[13].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[13].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[14].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[14].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[15].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[15].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[16].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[16].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[17].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[17].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[18].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[18].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[19].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[19].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[20].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[20].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[21].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[21].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[22].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[22].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[23].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[23].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[24].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[24].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[25].mx3| ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[25].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[26].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[26].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[27].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[27].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[2].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[2].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[3].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[3].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[4].mx3|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[4].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[5].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[5].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[6].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[6].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[7].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[7].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[8].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[8].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sll_1_1[9].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[1].loop_sll_1_1[9].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[10].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[10].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[11].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[11].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[12].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[12].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[13].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[13].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[14].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[14].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[15].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[15].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[16].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[16].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[17].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[17].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[18].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[18].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[19].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[19].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[20].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[20].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[21].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[21].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[22].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[22].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[23].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[23].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[4].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[4].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[8].mx3|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[8].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sll_1_1[9].mx3|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[2].loop_sll_1_1[9].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[0].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[0].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[1].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[1].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[2].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[2].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[3].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[3].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[4].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[4].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[5].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[5].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[6].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[6].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_0[7].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_0[7].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[10].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[10].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[11].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[11].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[12].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[12].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[13].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[13].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[14].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[14].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[15].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[15].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[30].mx3| ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[30].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[8].mx3|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[8].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sll_1_1[9].mx3|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_j[3].loop_sll_1_1[9].mx3                                          ; mux             ; work         ;
+;       |mux:loop_sll_0[1].mx1|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_sll_0[1].mx1                                                      ; mux             ; work         ;
+;       |mux:loop_sll_0[26].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_sll_0[26].mx1                                                     ; mux             ; work         ;
+;       |mux:loop_sll_0[27].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_sll_0[27].mx1                                                     ; mux             ; work         ;
+;       |mux:loop_sll_0[28].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_sll_0[28].mx1                                                     ; mux             ; work         ;
+;       |mux:loop_sll_0[29].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sll:sll_res|mux:loop_sll_0[29].mx1                                                     ; mux             ; work         ;
+;    |sra:sra_res|                           ; 96 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res                                                                            ; sra             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[10].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[10].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[11].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[11].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[12].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[12].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[13].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[13].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[14].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[14].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[15].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[15].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[16].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[16].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[17].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[17].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[18].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[18].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[19].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[19].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[20].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[20].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[21].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[21].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[22].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[22].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[23].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[23].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[24].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[24].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[25].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[25].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[26].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[26].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[27].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[27].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[3].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[3].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[4].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[4].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[5].mx3|  ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[5].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[6].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[6].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[7].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[7].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[8].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[8].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[1].loop_sra_1_1[9].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[1].loop_sra_1_1[9].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[10].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[10].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[11].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[11].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[12].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[12].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[13].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[13].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[14].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[14].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[15].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[15].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[16].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[16].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[17].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[17].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[18].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[18].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[19].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[19].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[20].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[20].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[21].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[21].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[22].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[22].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[23].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[23].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[5].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[5].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[6].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[6].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[8].mx3|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[8].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[2].loop_sra_1_1[9].mx3|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[2].loop_sra_1_1[9].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_0[1].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_0[1].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_0[2].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_0[2].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_0[3].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_0[3].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_0[4].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_0[4].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_0[5].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_0[5].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_0[6].mx2|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_0[6].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_0[7].mx2|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_0[7].mx2                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[10].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[10].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[11].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[11].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[12].mx3| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[12].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[13].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[13].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[14].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[14].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[15].mx3| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[15].mx3                                         ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[8].mx3|  ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[8].mx3                                          ; mux             ; work         ;
+;       |mux:loop_j[3].loop_sra_1_1[9].mx3|  ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_j[3].loop_sra_1_1[9].mx3                                          ; mux             ; work         ;
+;       |mux:loop_sra_0[26].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_sra_0[26].mx1                                                     ; mux             ; work         ;
+;       |mux:loop_sra_0[27].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_sra_0[27].mx1                                                     ; mux             ; work         ;
+;       |mux:loop_sra_0[28].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_sra_0[28].mx1                                                     ; mux             ; work         ;
+;       |mux:loop_sra_0[29].mx1|             ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_sra_0[29].mx1                                                     ; mux             ; work         ;
+;       |mux:loop_sra_0[2].mx1|              ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|sra:sra_res|mux:loop_sra_0[2].mx1                                                      ; mux             ; work         ;
+;    |xor_32_1:flipB|                        ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|xor_32_1:flipB                                                                         ; xor_32_1        ; work         ;
+;    |zero_det:zero_check|                   ; 13 (13)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |alu|zero_det:zero_check                                                                    ; zero_det        ; work         ;
++--------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -310,13 +479,299 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                            ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |alu|csa_32:csa_add_sub|mux_16:s_sum|out[9] ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                             ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; No         ; |alu|csa_32:csa_add_sub|mux_16:s_sum|out[13] ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 32 LEs               ; 8 LEs                  ; No         ; |alu|mux_32_5:outdata|out[9]                 ;
+; 8:1                ; 8 bits    ; 40 LEs        ; 40 LEs               ; 0 LEs                  ; No         ; |alu|mux_32_5:outdata|out[23]                ;
+; 9:1                ; 4 bits    ; 24 LEs        ; 20 LEs               ; 4 LEs                  ; No         ; |alu|mux_32_5:outdata|out[7]                 ;
+; 9:1                ; 4 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |alu|mux_32_5:outdata|out[27]                ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |alu|mux_32_5:outdata|out[3]                 ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |alu|mux_32_5:outdata|out[29]                ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 12 LEs               ; 2 LEs                  ; No         ; |alu|mux_32_5:outdata|out[1]                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[15].mx6" ;
++------+-------+----------+----------------------------------------+
+; Port ; Type  ; Severity ; Details                                ;
++------+-------+----------+----------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                           ;
++------+-------+----------+----------------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[14].mx6" ;
++------+-------+----------+----------------------------------------+
+; Port ; Type  ; Severity ; Details                                ;
++------+-------+----------+----------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                           ;
++------+-------+----------+----------------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[13].mx6" ;
++------+-------+----------+----------------------------------------+
+; Port ; Type  ; Severity ; Details                                ;
++------+-------+----------+----------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                           ;
++------+-------+----------+----------------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[12].mx6" ;
++------+-------+----------+----------------------------------------+
+; Port ; Type  ; Severity ; Details                                ;
++------+-------+----------+----------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                           ;
++------+-------+----------+----------------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[11].mx6" ;
++------+-------+----------+----------------------------------------+
+; Port ; Type  ; Severity ; Details                                ;
++------+-------+----------+----------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                           ;
++------+-------+----------+----------------------------------------+
+
+
++------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[10].mx6" ;
++------+-------+----------+----------------------------------------+
+; Port ; Type  ; Severity ; Details                                ;
++------+-------+----------+----------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                           ;
++------+-------+----------+----------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[9].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[8].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[7].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[6].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[5].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[4].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[3].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[2].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[1].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++-----------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_sll_4_0[0].mx6" ;
++------+-------+----------+---------------------------------------+
+; Port ; Type  ; Severity ; Details                               ;
++------+-------+----------+---------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                          ;
++------+-------+----------+---------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[7].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[6].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[5].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[4].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[3].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[2].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[1].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[3].loop_sll_1_0[0].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[3].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[2].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[1].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[2].loop_sll_1_0[0].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[1].loop_sll_1_0[1].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:loop_j[1].loop_sll_1_0[0].mx2" ;
++------+-------+----------+-------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                         ;
++------+-------+----------+-------------------------------------------------+
+; a    ; Input ; Info     ; Stuck at GND                                    ;
++------+-------+----------+-------------------------------------------------+
+
+
++-------------------------------------------------+
+; Port Connectivity Checks: "sll:sll_res|mux:mx0" ;
++------+-------+----------+-----------------------+
+; Port ; Type  ; Severity ; Details               ;
++------+-------+----------+-----------------------+
+; a    ; Input ; Info     ; Stuck at GND          ;
++------+-------+----------+-----------------------+
 
 
 +---------------------------------------------------------------------+
@@ -388,15 +843,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 109                         ;
-; cycloneiii_lcell_comb ; 115                         ;
-;     normal            ; 115                         ;
-;         0 data inputs ; 1                           ;
-;         2 data inputs ; 7                           ;
-;         3 data inputs ; 29                          ;
-;         4 data inputs ; 78                          ;
+; cycloneiii_lcell_comb ; 504                         ;
+;     normal            ; 504                         ;
+;         2 data inputs ; 17                          ;
+;         3 data inputs ; 199                         ;
+;         4 data inputs ; 288                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 13.00                       ;
-; Average LUT depth     ; 8.42                        ;
+; Max LUT depth         ; 15.00                       ;
+; Average LUT depth     ; 8.70                        ;
 +-----------------------+-----------------------------+
 
 
@@ -405,7 +859,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -415,85 +869,85 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Mon Sep 18 17:11:22 2023
+    Info: Processing started: Fri Sep 22 22:22:45 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu -c alu
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.v
-    Info (12023): Found entity 1: alu_tb File: D:/intelFPGA_lite/17.0/alu/alu_tb.v Line: 3
+    Info (12023): Found entity 1: alu_tb File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file alu.v
-    Info (12023): Found entity 1: alu File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 1
+    Info (12023): Found entity 1: alu File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file full_adder.v
-    Info (12023): Found entity 1: full_adder File: D:/intelFPGA_lite/17.0/alu/full_adder.v Line: 1
+    Info (12023): Found entity 1: full_adder File: D:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file and_32.v
-    Info (12023): Found entity 1: and_32 File: D:/intelFPGA_lite/17.0/alu/and_32.v Line: 1
+    Info (12023): Found entity 1: and_32 File: D:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file or_32.v
-    Info (12023): Found entity 1: or_32 File: D:/intelFPGA_lite/17.0/alu/or_32.v Line: 1
+    Info (12023): Found entity 1: or_32 File: D:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file xor_32_1.v
-    Info (12023): Found entity 1: xor_32_1 File: D:/intelFPGA_lite/17.0/alu/xor_32_1.v Line: 1
+    Info (12023): Found entity 1: xor_32_1 File: D:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v Line: 1
 Info (12021): Found 2 design units, including 2 entities, in source file rca_16.v
-    Info (12023): Found entity 1: rca_16 File: D:/intelFPGA_lite/17.0/alu/rca_16.v Line: 1
-    Info (12023): Found entity 2: rca_16_overflow File: D:/intelFPGA_lite/17.0/alu/rca_16.v Line: 21
+    Info (12023): Found entity 1: rca_16 File: D:/intelFPGA_lite/17.0/ECE550D/alu/rca_16.v Line: 1
+    Info (12023): Found entity 2: rca_16_overflow File: D:/intelFPGA_lite/17.0/ECE550D/alu/rca_16.v Line: 21
 Info (12021): Found 2 design units, including 2 entities, in source file rca_8.v
-    Info (12023): Found entity 1: rca_8 File: D:/intelFPGA_lite/17.0/alu/rca_8.v Line: 1
-    Info (12023): Found entity 2: rca_8_overflow File: D:/intelFPGA_lite/17.0/alu/rca_8.v Line: 23
+    Info (12023): Found entity 1: rca_8 File: D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v Line: 1
+    Info (12023): Found entity 2: rca_8_overflow File: D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v Line: 23
 Info (12021): Found 1 design units, including 1 entities, in source file csa_32.v
-    Info (12023): Found entity 1: csa_32 File: D:/intelFPGA_lite/17.0/alu/csa_32.v Line: 1
-Warning (12090): Entity "mux" obtained from "mux.v" instead of from Quartus Prime megafunction library File: D:/intelFPGA_lite/17.0/alu/mux.v Line: 1
-Info (12021): Found 4 design units, including 4 entities, in source file mux.v
-    Info (12023): Found entity 1: mux File: D:/intelFPGA_lite/17.0/alu/mux.v Line: 1
-    Info (12023): Found entity 2: mux_8 File: D:/intelFPGA_lite/17.0/alu/mux.v Line: 7
-    Info (12023): Found entity 3: mux_16 File: D:/intelFPGA_lite/17.0/alu/mux.v Line: 14
-    Info (12023): Found entity 4: mux_32 File: D:/intelFPGA_lite/17.0/alu/mux.v Line: 21
+    Info (12023): Found entity 1: csa_32 File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v Line: 1
+Warning (12090): Entity "mux" obtained from "mux.v" instead of from Quartus Prime megafunction library File: D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v Line: 1
+Info (12021): Found 5 design units, including 5 entities, in source file mux.v
+    Info (12023): Found entity 1: mux File: D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v Line: 1
+    Info (12023): Found entity 2: mux_8 File: D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v Line: 7
+    Info (12023): Found entity 3: mux_16 File: D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v Line: 14
+    Info (12023): Found entity 4: mux_32 File: D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v Line: 21
+    Info (12023): Found entity 5: mux_32_5 File: D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v Line: 28
 Info (12021): Found 2 design units, including 2 entities, in source file csa_16.v
-    Info (12023): Found entity 1: csa_16 File: D:/intelFPGA_lite/17.0/alu/csa_16.v Line: 1
-    Info (12023): Found entity 2: csa_16_overflow File: D:/intelFPGA_lite/17.0/alu/csa_16.v Line: 21
+    Info (12023): Found entity 1: csa_16 File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v Line: 1
+    Info (12023): Found entity 2: csa_16_overflow File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v Line: 21
 Info (12021): Found 1 design units, including 1 entities, in source file sll.v
-    Info (12023): Found entity 1: sll File: D:/intelFPGA_lite/17.0/alu/sll.v Line: 1
+    Info (12023): Found entity 1: sll File: D:/intelFPGA_lite/17.0/ECE550D/alu/sll.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file sra.v
-    Info (12023): Found entity 1: sra File: D:/intelFPGA_lite/17.0/alu/sra.v Line: 1
+    Info (12023): Found entity 1: sra File: D:/intelFPGA_lite/17.0/ECE550D/alu/sra.v Line: 1
 Info (12021): Found 4 design units, including 4 entities, in source file zero_det.v
-    Info (12023): Found entity 1: zero_det File: D:/intelFPGA_lite/17.0/alu/zero_det.v Line: 1
-    Info (12023): Found entity 2: or_16 File: D:/intelFPGA_lite/17.0/alu/zero_det.v Line: 10
-    Info (12023): Found entity 3: or_8 File: D:/intelFPGA_lite/17.0/alu/zero_det.v Line: 19
-    Info (12023): Found entity 4: or_4 File: D:/intelFPGA_lite/17.0/alu/zero_det.v Line: 28
+    Info (12023): Found entity 1: zero_det File: D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v Line: 1
+    Info (12023): Found entity 2: or_16 File: D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v Line: 10
+    Info (12023): Found entity 3: or_8 File: D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v Line: 19
+    Info (12023): Found entity 4: or_4 File: D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v Line: 28
+Info (12021): Found 0 design units, including 0 entities, in source file decoder_5_32.v
 Info (12127): Elaborating entity "alu" for the top level hierarchy
-Warning (10034): Output port "isNotEqual" at alu.v(7) has no driver File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 7
-Warning (10034): Output port "isLessThan" at alu.v(7) has no driver File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 7
-Info (12128): Elaborating entity "xor_32_1" for hierarchy "xor_32_1:flipB" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 15
-Info (12128): Elaborating entity "csa_32" for hierarchy "csa_32:csa_add_sub" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 18
-Info (12128): Elaborating entity "csa_16" for hierarchy "csa_32:csa_add_sub|csa_16:c0" File: D:/intelFPGA_lite/17.0/alu/csa_32.v Line: 10
-Info (12128): Elaborating entity "rca_8" for hierarchy "csa_32:csa_add_sub|csa_16:c0|rca_8:r0" File: D:/intelFPGA_lite/17.0/alu/csa_16.v Line: 11
-Info (12128): Elaborating entity "full_adder" for hierarchy "csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:fa0" File: D:/intelFPGA_lite/17.0/alu/rca_8.v Line: 9
-Info (12128): Elaborating entity "mux" for hierarchy "csa_32:csa_add_sub|csa_16:c0|mux:s_cout" File: D:/intelFPGA_lite/17.0/alu/csa_16.v Line: 15
-Info (12128): Elaborating entity "mux_8" for hierarchy "csa_32:csa_add_sub|csa_16:c0|mux_8:s_sum" File: D:/intelFPGA_lite/17.0/alu/csa_16.v Line: 16
-Info (12128): Elaborating entity "csa_16_overflow" for hierarchy "csa_32:csa_add_sub|csa_16_overflow:c1_0" File: D:/intelFPGA_lite/17.0/alu/csa_32.v Line: 11
-Info (12128): Elaborating entity "rca_8_overflow" for hierarchy "csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0" File: D:/intelFPGA_lite/17.0/alu/csa_16.v Line: 32
-Info (12128): Elaborating entity "mux_16" for hierarchy "csa_32:csa_add_sub|mux_16:s_sum" File: D:/intelFPGA_lite/17.0/alu/csa_32.v Line: 16
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "isNotEqual" is stuck at GND File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 7
-    Warning (13410): Pin "isLessThan" is stuck at GND File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 7
+Info (12128): Elaborating entity "xor_32_1" for hierarchy "xor_32_1:flipB" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 15
+Info (12128): Elaborating entity "csa_32" for hierarchy "csa_32:csa_add_sub" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 17
+Info (12128): Elaborating entity "csa_16" for hierarchy "csa_32:csa_add_sub|csa_16:c0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v Line: 10
+Info (12128): Elaborating entity "rca_8" for hierarchy "csa_32:csa_add_sub|csa_16:c0|rca_8:r0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v Line: 11
+Info (12128): Elaborating entity "full_adder" for hierarchy "csa_32:csa_add_sub|csa_16:c0|rca_8:r0|full_adder:fa0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v Line: 9
+Info (12128): Elaborating entity "mux" for hierarchy "csa_32:csa_add_sub|csa_16:c0|mux:s_cout" File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v Line: 15
+Info (12128): Elaborating entity "mux_8" for hierarchy "csa_32:csa_add_sub|csa_16:c0|mux_8:s_sum" File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v Line: 16
+Info (12128): Elaborating entity "csa_16_overflow" for hierarchy "csa_32:csa_add_sub|csa_16_overflow:c1_0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v Line: 11
+Info (12128): Elaborating entity "rca_8_overflow" for hierarchy "csa_32:csa_add_sub|csa_16_overflow:c1_0|rca_8_overflow:r1_0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v Line: 32
+Info (12128): Elaborating entity "mux_16" for hierarchy "csa_32:csa_add_sub|mux_16:s_sum" File: D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v Line: 16
+Info (12128): Elaborating entity "and_32" for hierarchy "and_32:and_cal" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 20
+Info (12128): Elaborating entity "or_32" for hierarchy "or_32:or_cal" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 21
+Info (12128): Elaborating entity "sll" for hierarchy "sll:sll_res" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 23
+Info (12128): Elaborating entity "sra" for hierarchy "sra:sra_res" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 24
+Info (12128): Elaborating entity "zero_det" for hierarchy "zero_det:zero_check" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 26
+Info (12128): Elaborating entity "or_16" for hierarchy "zero_det:zero_check|or_16:or_16_0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v Line: 5
+Info (12128): Elaborating entity "or_8" for hierarchy "zero_det:zero_check|or_16:or_16_0|or_8:or_8_0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v Line: 14
+Info (12128): Elaborating entity "or_4" for hierarchy "zero_det:zero_check|or_16:or_16_0|or_8:or_8_0|or_4:or_4_0" File: D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v Line: 23
+Info (12128): Elaborating entity "mux_32_5" for hierarchy "mux_32_5:outdata" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 29
+Info (12128): Elaborating entity "mux_32" for hierarchy "mux_32_5:outdata|mux_32:from_and_or" File: D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v Line: 33
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 9 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "ctrl_ALUopcode[1]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_ALUopcode[2]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_ALUopcode[3]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_ALUopcode[4]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[0]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[1]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[2]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[3]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-    Warning (15610): No output dependent on input pin "ctrl_shiftamt[4]" File: D:/intelFPGA_lite/17.0/alu/alu.v Line: 4
-Info (21057): Implemented 223 device resources after synthesis - the final resource count might be different
+Warning (21074): Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "ctrl_ALUopcode[3]" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 4
+    Warning (15610): No output dependent on input pin "ctrl_ALUopcode[4]" File: D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v Line: 4
+Info (21057): Implemented 613 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 74 input pins
     Info (21059): Implemented 35 output pins
-    Info (21061): Implemented 114 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 17 warnings
-    Info: Peak virtual memory: 4754 megabytes
-    Info: Processing ended: Mon Sep 18 17:11:33 2023
+    Info (21061): Implemented 504 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 5 warnings
+    Info: Peak virtual memory: 4758 megabytes
+    Info: Processing ended: Fri Sep 22 22:22:56 2023
     Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Total CPU time (on all processors): 00:00:24
 
 

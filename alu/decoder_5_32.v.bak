@@ -1,0 +1,2 @@
+module decoder_5_32(in_5,out_32);
+endmodule

@@ -1,4 +1,5 @@
 # Reading D:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
 # do alu_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -10,101 +11,155 @@
 # Copying D:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/alu.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/alu.v 
+# Start time: 22:23:14 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# End time: 22:23:14 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/full_adder.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/full_adder.v 
+# Start time: 22:23:14 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/full_adder.v 
 # -- Compiling module full_adder
 # 
 # Top level modules:
 # 	full_adder
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# End time: 22:23:14 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/xor_32_1.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/xor_32_1.v 
+# Start time: 22:23:14 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/and_32.v 
+# -- Compiling module and_32
+# 
+# Top level modules:
+# 	and_32
+# End time: 22:23:14 on Sep 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:23:14 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/or_32.v 
+# -- Compiling module or_32
+# 
+# Top level modules:
+# 	or_32
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/xor_32_1.v 
 # -- Compiling module xor_32_1
 # 
 # Top level modules:
 # 	xor_32_1
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/rca_8.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/rca_8.v 
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/rca_8.v 
 # -- Compiling module rca_8
 # -- Compiling module rca_8_overflow
 # 
 # Top level modules:
 # 	rca_8
 # 	rca_8_overflow
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/csa_32.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/csa_32.v 
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/csa_32.v 
 # -- Compiling module csa_32
 # 
 # Top level modules:
 # 	csa_32
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/mux.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/mux.v 
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/mux.v 
 # -- Compiling module mux
 # -- Compiling module mux_8
 # -- Compiling module mux_16
 # -- Compiling module mux_32
+# -- Compiling module mux_32_5
 # 
 # Top level modules:
 # 	mux
 # 	mux_8
 # 	mux_16
-# 	mux_32
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# 	mux_32_5
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/csa_16.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/csa_16.v 
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/csa_16.v 
 # -- Compiling module csa_16
 # -- Compiling module csa_16_overflow
 # 
 # Top level modules:
 # 	csa_16
 # 	csa_16_overflow
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/sll.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/sll.v 
+# -- Compiling module sll
+# 
+# Top level modules:
+# 	sll
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/sra.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/sra.v 
+# -- Compiling module sra
+# 
+# Top level modules:
+# 	sra
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/zero_det.v 
+# -- Compiling module zero_det
+# -- Compiling module or_16
+# -- Compiling module or_8
+# -- Compiling module or_4
+# 
+# Top level modules:
+# 	zero_det
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/alu {D:/intelFPGA_lite/17.0/alu/alu_tb.v}
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/alu {D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:14:00 on Sep 18,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/alu" D:/intelFPGA_lite/17.0/alu/alu_tb.v 
+# Start time: 22:23:15 on Sep 22,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/alu" D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v 
 # -- Compiling module alu_tb
 # 
 # Top level modules:
 # 	alu_tb
-# End time: 17:14:00 on Sep 18,2023, Elapsed time: 0:00:00
+# End time: 22:23:15 on Sep 22,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  alu_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" alu_tb 
-# Start time: 17:14:00 on Sep 18,2023
+# Start time: 22:23:16 on Sep 22,2023
 # Loading work.alu_tb
 # Loading work.alu
 # Loading work.xor_32_1
@@ -117,6 +172,16 @@
 # Loading work.csa_16_overflow
 # Loading work.rca_8_overflow
 # Loading work.mux_16
+# Loading work.and_32
+# Loading work.or_32
+# Loading work.sll
+# Loading work.sra
+# Loading work.zero_det
+# Loading work.or_16
+# Loading work.or_8
+# Loading work.or_4
+# Loading work.mux_32_5
+# Loading work.mux_32
 # 
 # add wave *
 # view structure
@@ -126,9 +191,8 @@
 # run -all
 #                    0 << Starting the Simulation >>
 # The simulation completed without errors
-# ** Note: $stop    : D:/intelFPGA_lite/17.0/alu/alu_tb.v(51)
-#    Time: 1560 ns  Iteration: 1  Instance: /alu_tb
-# Break in Module alu_tb at D:/intelFPGA_lite/17.0/alu/alu_tb.v line 51
-# WARNING: No extended dataflow license exists
-# End time: 17:58:06 on Sep 18,2023, Elapsed time: 0:44:06
-# Errors: 0, Warnings: 1
+# ** Note: $stop    : D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v(51)
+#    Time: 2480 ns  Iteration: 1  Instance: /alu_tb
+# Break in Module alu_tb at D:/intelFPGA_lite/17.0/ECE550D/alu/alu_tb.v line 51
+# End time: 22:24:17 on Sep 22,2023, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 0
