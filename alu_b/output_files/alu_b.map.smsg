@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at alu_b.v(16): always construct contains both blocking and non-blocking assignments File: D:/intelFPGA_lite/17.0/ECE550D/alu_b/alu_b.v Line: 16
