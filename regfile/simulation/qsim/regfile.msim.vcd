@@ -1,0 +1,400 @@
+$comment
+	File created using the following command:
+		vcd file regfile.msim.vcd -direction
+$end
+$date
+	Wed Oct 04 12:22:10 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module tri_state_buff_vlg_vec_tst $end
+$var reg 1 ! ctrl $end
+$var reg 32 " in [31:0] $end
+$var wire 1 # out [31] $end
+$var wire 1 $ out [30] $end
+$var wire 1 % out [29] $end
+$var wire 1 & out [28] $end
+$var wire 1 ' out [27] $end
+$var wire 1 ( out [26] $end
+$var wire 1 ) out [25] $end
+$var wire 1 * out [24] $end
+$var wire 1 + out [23] $end
+$var wire 1 , out [22] $end
+$var wire 1 - out [21] $end
+$var wire 1 . out [20] $end
+$var wire 1 / out [19] $end
+$var wire 1 0 out [18] $end
+$var wire 1 1 out [17] $end
+$var wire 1 2 out [16] $end
+$var wire 1 3 out [15] $end
+$var wire 1 4 out [14] $end
+$var wire 1 5 out [13] $end
+$var wire 1 6 out [12] $end
+$var wire 1 7 out [11] $end
+$var wire 1 8 out [10] $end
+$var wire 1 9 out [9] $end
+$var wire 1 : out [8] $end
+$var wire 1 ; out [7] $end
+$var wire 1 < out [6] $end
+$var wire 1 = out [5] $end
+$var wire 1 > out [4] $end
+$var wire 1 ? out [3] $end
+$var wire 1 @ out [2] $end
+$var wire 1 A out [1] $end
+$var wire 1 B out [0] $end
+
+$scope module i1 $end
+$var wire 1 C gnd $end
+$var wire 1 D vcc $end
+$var wire 1 E unknown $end
+$var tri1 1 F devclrn $end
+$var tri1 1 G devpor $end
+$var tri1 1 H devoe $end
+$var wire 1 I out[0]~output_o $end
+$var wire 1 J out[1]~output_o $end
+$var wire 1 K out[2]~output_o $end
+$var wire 1 L out[3]~output_o $end
+$var wire 1 M out[4]~output_o $end
+$var wire 1 N out[5]~output_o $end
+$var wire 1 O out[6]~output_o $end
+$var wire 1 P out[7]~output_o $end
+$var wire 1 Q out[8]~output_o $end
+$var wire 1 R out[9]~output_o $end
+$var wire 1 S out[10]~output_o $end
+$var wire 1 T out[11]~output_o $end
+$var wire 1 U out[12]~output_o $end
+$var wire 1 V out[13]~output_o $end
+$var wire 1 W out[14]~output_o $end
+$var wire 1 X out[15]~output_o $end
+$var wire 1 Y out[16]~output_o $end
+$var wire 1 Z out[17]~output_o $end
+$var wire 1 [ out[18]~output_o $end
+$var wire 1 \ out[19]~output_o $end
+$var wire 1 ] out[20]~output_o $end
+$var wire 1 ^ out[21]~output_o $end
+$var wire 1 _ out[22]~output_o $end
+$var wire 1 ` out[23]~output_o $end
+$var wire 1 a out[24]~output_o $end
+$var wire 1 b out[25]~output_o $end
+$var wire 1 c out[26]~output_o $end
+$var wire 1 d out[27]~output_o $end
+$var wire 1 e out[28]~output_o $end
+$var wire 1 f out[29]~output_o $end
+$var wire 1 g out[30]~output_o $end
+$var wire 1 h out[31]~output_o $end
+$var wire 1 i in[0]~input_o $end
+$var wire 1 j ctrl~input_o $end
+$var wire 1 k in[1]~input_o $end
+$var wire 1 l in[2]~input_o $end
+$var wire 1 m in[3]~input_o $end
+$var wire 1 n in[4]~input_o $end
+$var wire 1 o in[5]~input_o $end
+$var wire 1 p in[6]~input_o $end
+$var wire 1 q in[7]~input_o $end
+$var wire 1 r in[8]~input_o $end
+$var wire 1 s in[9]~input_o $end
+$var wire 1 t in[10]~input_o $end
+$var wire 1 u in[11]~input_o $end
+$var wire 1 v in[12]~input_o $end
+$var wire 1 w in[13]~input_o $end
+$var wire 1 x in[14]~input_o $end
+$var wire 1 y in[15]~input_o $end
+$var wire 1 z in[16]~input_o $end
+$var wire 1 { in[17]~input_o $end
+$var wire 1 | in[18]~input_o $end
+$var wire 1 } in[19]~input_o $end
+$var wire 1 ~ in[20]~input_o $end
+$var wire 1 !! in[21]~input_o $end
+$var wire 1 "! in[22]~input_o $end
+$var wire 1 #! in[23]~input_o $end
+$var wire 1 $! in[24]~input_o $end
+$var wire 1 %! in[25]~input_o $end
+$var wire 1 &! in[26]~input_o $end
+$var wire 1 '! in[27]~input_o $end
+$var wire 1 (! in[28]~input_o $end
+$var wire 1 )! in[29]~input_o $end
+$var wire 1 *! in[30]~input_o $end
+$var wire 1 +! in[31]~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+zB
+zA
+z@
+z?
+z>
+z=
+z<
+z;
+z:
+z9
+z8
+z7
+z6
+z5
+z4
+z3
+z2
+z1
+z0
+z/
+z.
+z-
+z,
+z+
+z*
+z)
+z(
+z'
+z&
+z%
+z$
+z#
+0C
+1D
+xE
+1F
+1G
+1H
+zI
+zJ
+zK
+zL
+zM
+zN
+zO
+zP
+zQ
+zR
+zS
+zT
+zU
+zV
+zW
+zX
+zY
+zZ
+z[
+z\
+z]
+z^
+z_
+z`
+za
+zb
+zc
+zd
+ze
+zf
+zg
+zh
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+0u
+0v
+0w
+0x
+0y
+0z
+0{
+0|
+0}
+0~
+0!!
+0"!
+0#!
+0$!
+0%!
+0&!
+0'!
+0(!
+0)!
+0*!
+0+!
+$end
+#220000
+b10000000000000000000000000000000 "
+b11000000000000000000000000000000 "
+b11100000000000000000000000000000 "
+b11100000000000000000000000000010 "
+b11100000000000000000000000000011 "
+1i
+1k
+1)!
+1*!
+1+!
+#320000
+1!
+1j
+1I
+1J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+1f
+1g
+1h
+1#
+1$
+1%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+03
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+1A
+1B
+#450000
+b1100000000000000000000000000011 "
+b100000000000000000000000000011 "
+b11 "
+b1 "
+b0 "
+0i
+0k
+0)!
+0*!
+0+!
+0h
+0g
+0f
+0J
+0I
+0B
+0A
+0%
+0$
+0#
+#600000
+0!
+0j
+zI
+zJ
+zK
+zL
+zM
+zN
+zO
+zP
+zQ
+zR
+zS
+zT
+zU
+zV
+zW
+zX
+zY
+zZ
+z[
+z\
+z]
+z^
+z_
+z`
+za
+zb
+zc
+zd
+ze
+zf
+zg
+zh
+z#
+z$
+z%
+z&
+z'
+z(
+z)
+z*
+z+
+z,
+z-
+z.
+z/
+z0
+z1
+z2
+z3
+z4
+z5
+z6
+z7
+z8
+z9
+z:
+z;
+z<
+z=
+z>
+z?
+z@
+zA
+zB
+#1000000

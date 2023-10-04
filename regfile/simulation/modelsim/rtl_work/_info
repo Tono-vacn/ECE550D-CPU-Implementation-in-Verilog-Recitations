@@ -1,0 +1,142 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/17.0/ECE550D/regfile/simulation/modelsim
+vdecoder_5_32
+Z1 !s110 1696443787
+!i10b 1
+!s100 l_QzbDlCLKU76M@bJBeN40
+IeORGfbHK6FXJ]Lk=LQHSR1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1696433997
+8D:/intelFPGA_lite/17.0/ECE550D/regfile/decoder_5_32.v
+FD:/intelFPGA_lite/17.0/ECE550D/regfile/decoder_5_32.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1696443787.000000
+!s107 D:/intelFPGA_lite/17.0/ECE550D/regfile/decoder_5_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/regfile|D:/intelFPGA_lite/17.0/ECE550D/regfile/decoder_5_32.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/regfile
+Z7 tCvgOpt 0
+vdffe_ref
+R1
+!i10b 1
+!s100 m2?1a8:`omUTO_3UK>MQz1
+IW[z8Sz6Ke2z9_m27ccNlT3
+R2
+R0
+w1696431328
+8D:/intelFPGA_lite/17.0/ECE550D/regfile/dffe.v
+FD:/intelFPGA_lite/17.0/ECE550D/regfile/dffe.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/ECE550D/regfile/dffe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/regfile|D:/intelFPGA_lite/17.0/ECE550D/regfile/dffe.v|
+!i113 1
+R5
+R6
+R7
+vreg_32
+R1
+!i10b 1
+!s100 o]71M[I_oKmn7AGJWz4he2
+IdUUDHF3adZG^B4;>ESc=?0
+R2
+R0
+w1696432619
+8D:/intelFPGA_lite/17.0/ECE550D/regfile/reg_32.v
+FD:/intelFPGA_lite/17.0/ECE550D/regfile/reg_32.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/ECE550D/regfile/reg_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/regfile|D:/intelFPGA_lite/17.0/ECE550D/regfile/reg_32.v|
+!i113 1
+R5
+R6
+R7
+vregfile
+R1
+!i10b 1
+!s100 EPcD?k]ZHX9=IZR_fR9T_2
+I[<ZQc=VODI:@_>kXZW;cg0
+R2
+R0
+w1696443294
+8D:/intelFPGA_lite/17.0/ECE550D/regfile/regfile.v
+FD:/intelFPGA_lite/17.0/ECE550D/regfile/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/ECE550D/regfile/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/regfile|D:/intelFPGA_lite/17.0/ECE550D/regfile/regfile.v|
+!i113 1
+R5
+R6
+R7
+vregfile_tb
+R1
+!i10b 1
+!s100 I3[8:oXYB80eFa07O@b_T2
+ID7KWYUPA6Sgkfi?>eE6]T3
+R2
+R0
+w1696443747
+8D:/intelFPGA_lite/17.0/ECE550D/regfile/regfile_tb.v
+FD:/intelFPGA_lite/17.0/ECE550D/regfile/regfile_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/ECE550D/regfile/regfile_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/regfile|D:/intelFPGA_lite/17.0/ECE550D/regfile/regfile_tb.v|
+!i113 1
+R5
+R6
+R7
+vtri_state_buff
+R1
+!i10b 1
+!s100 mEelC<8dTYAZcCUZWQ@nf3
+IE=2Jd6FSRHF[d<01BB<:40
+R2
+R0
+w1696436388
+8D:/intelFPGA_lite/17.0/ECE550D/regfile/tri_state_buff.v
+FD:/intelFPGA_lite/17.0/ECE550D/regfile/tri_state_buff.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/intelFPGA_lite/17.0/ECE550D/regfile/tri_state_buff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/regfile|D:/intelFPGA_lite/17.0/ECE550D/regfile/tri_state_buff.v|
+!i113 1
+R5
+R6
+R7
