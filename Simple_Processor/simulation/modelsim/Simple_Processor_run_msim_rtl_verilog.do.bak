@@ -1,0 +1,32 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/regfile.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/alu.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dffe.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/decoder_5_32.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/and_32.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/xor_32_1.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/or_32.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/full_adder.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_8.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/csa_16.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/csa_32.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sll.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sra.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/zero_det.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_12.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/ctrlLogic.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v}
+
