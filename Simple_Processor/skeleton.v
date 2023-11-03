@@ -20,13 +20,14 @@ module skeleton(clock, reset, imem_clock, dmem_clock, processor_clock, regfile_c
     */
     output imem_clock, dmem_clock, processor_clock, regfile_clock;
 	 
+    //wire processor_clock, imem_clock, dmem_clock, regfile_clock;
 	 clk_dffe clk2(clock,reset, clock_2, clock_2_);
-	 clk_dffe clk4(clock,reset, clock_4, clock_4_);
+	 clk_dffe clk4(clock_2,reset, clock_4, clock_4_);
 	 
 	 assign regfile_clock = clock_4_;
 	 assign processor_clock = clock_4_;
 	 assign imem_clock = clock;
-	 assign dmem_clock = clock;
+	 assign dmem_clock = ~clock;
 	 
     /** IMEM **/
     // Figure out how to generate a Quartus syncram component and commit the generated verilog file.

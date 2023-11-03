@@ -11,7 +11,12 @@ module skeleton(resetn,
 	VGA_R,   														//	VGA Red[9:0]
 	VGA_G,	 														//	VGA Green[9:0]
 	VGA_B,															//	VGA Blue[9:0]
-	CLOCK_50);  													// 50 MHz clock
+	CLOCK_50,
+	up,
+	down,
+	left,
+	right
+	);  													// 50 MHz clock
 		
 	////////////////////////	VGA	////////////////////////////
 	output			VGA_CLK;   				//	VGA Clock
@@ -35,8 +40,8 @@ module skeleton(resetn,
 	output 	[31:0] 	debug_data_in;
 	output   [11:0]   debug_addr;
 	
-	
-	
+	////ctrl signal////
+	input up,down,left,right;
 	
 	
 	wire			 clock;
@@ -87,7 +92,12 @@ module skeleton(resetn,
 								 .oVS(VGA_VS),
 								 .b_data(VGA_B),
 								 .g_data(VGA_G),
-								 .r_data(VGA_R));
+								 .r_data(VGA_R),
+								 .right(right),
+								 .left(left),
+								 .up(up),
+								 .down(down)
+								 );
 	
 	
 endmodule

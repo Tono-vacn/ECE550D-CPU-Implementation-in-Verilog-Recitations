@@ -12,6 +12,7 @@ vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Proc
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dffe.v}
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v}
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/full_adder.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v}
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v}
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v}
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_12.v}
@@ -19,6 +20,8 @@ vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Proc
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v}
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v}
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v}
+vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v}
 
 vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor {D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v}
 

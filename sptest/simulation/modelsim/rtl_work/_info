@@ -1,0 +1,385 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/intelFPGA_lite/17.0/ECE550D/sptest/simulation/modelsim
+valu
+Z1 !s110 1698959981
+!i10b 1
+!s100 CM2POFHhm`MRQRPIcjMQG0
+Io7Ob0jWced9RQNz]JV5IQ1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1698182590
+8C:/Users/Vacn/Desktop/checkpoint4/alu.v
+FC:/Users/Vacn/Desktop/checkpoint4/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1698959981.000000
+!s107 C:/Users/Vacn/Desktop/checkpoint4/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/alu.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4
+Z7 tCvgOpt 0
+vclk_dffe
+R1
+!i10b 1
+!s100 6Yd4@=M70g_oJjNV?RUd@3
+IM12JejcoH3a?HMcdI?nEK0
+R2
+R0
+Z8 w1698108832
+Z9 8C:/Users/Vacn/Desktop/checkpoint4/clock_divider.v
+Z10 FC:/Users/Vacn/Desktop/checkpoint4/clock_divider.v
+L0 16
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/Vacn/Desktop/checkpoint4/clock_divider.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/clock_divider.v|
+!i113 1
+R5
+R6
+R7
+vclock_divider
+R1
+!i10b 1
+!s100 `coah869;7lRYdehhBO8C3
+InIbT^Eg5AFDGIYa5Ta`YF0
+R2
+R0
+R8
+R9
+R10
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+vctrlLogic
+R1
+!i10b 1
+!s100 mKjbO`l>B1nVHci8n`j601
+IT0I@PRIhci_Li_Z8Y923J1
+R2
+R0
+w1698792657
+8C:/Users/Vacn/Desktop/checkpoint4/ctrlLogic.v
+FC:/Users/Vacn/Desktop/checkpoint4/ctrlLogic.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vacn/Desktop/checkpoint4/ctrlLogic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/ctrlLogic.v|
+!i113 1
+R5
+R6
+R7
+nctrl@logic
+vdffe_reg
+R1
+!i10b 1
+!s100 f[O97k2Xn=iFbmkc@aQZA3
+IcUz5f8>Y37bRVdJW<7oOz0
+R2
+R0
+w1697153720
+8C:/Users/Vacn/Desktop/checkpoint4/dffe.v
+FC:/Users/Vacn/Desktop/checkpoint4/dffe.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vacn/Desktop/checkpoint4/dffe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/dffe.v|
+!i113 1
+R5
+R6
+R7
+vdmem
+R1
+!i10b 1
+!s100 Ig2U5z`UQ`aKkLjgP8hjc1
+I[JPD<4DAA9:TZGZLozA[L3
+R2
+R0
+w1698959073
+8C:/Users/Vacn/Desktop/checkpoint4/dmem.v
+FC:/Users/Vacn/Desktop/checkpoint4/dmem.v
+Z13 L0 40
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vacn/Desktop/checkpoint4/dmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/dmem.v|
+!i113 1
+R5
+R6
+R7
+vfull_adder
+R1
+!i10b 1
+!s100 3bP0MB]hU80DIKPiFCh<^0
+I02izok2NA:ChOG@3RzMAS1
+R2
+R0
+w1694642276
+8C:/Users/Vacn/Desktop/checkpoint4/full_adder.v
+FC:/Users/Vacn/Desktop/checkpoint4/full_adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vacn/Desktop/checkpoint4/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/full_adder.v|
+!i113 1
+R5
+R6
+R7
+vimem
+R1
+!i10b 1
+!s100 lQQ19TEnQaM9^<mlPHme00
+I9fK:Q0VCWgH;VP^okWBc82
+R2
+R0
+w1698959143
+8C:/Users/Vacn/Desktop/checkpoint4/imem.v
+FC:/Users/Vacn/Desktop/checkpoint4/imem.v
+R13
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vacn/Desktop/checkpoint4/imem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/imem.v|
+!i113 1
+R5
+R6
+R7
+vpc_4
+R1
+!i10b 1
+!s100 _fL]?_o9^TDnU6S;20Qh53
+IYlCih_;4da>g4V;@F4DM00
+R2
+R0
+w1698510808
+8C:/Users/Vacn/Desktop/checkpoint4/pc.v
+FC:/Users/Vacn/Desktop/checkpoint4/pc.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Vacn/Desktop/checkpoint4/pc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/pc.v|
+!i113 1
+R5
+R6
+R7
+vprocessor
+R1
+!i10b 1
+!s100 bCQ_O:84CicDZn]_AlT670
+ICn>_50=6YT0CCncKP:5mh2
+R2
+R0
+w1698959939
+8C:/Users/Vacn/Desktop/checkpoint4/processor.v
+FC:/Users/Vacn/Desktop/checkpoint4/processor.v
+L0 50
+R3
+r1
+!s85 0
+31
+Z14 !s108 1698959980.000000
+!s107 C:/Users/Vacn/Desktop/checkpoint4/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/processor.v|
+!i113 1
+R5
+R6
+R7
+vrca_12
+Z15 !s110 1698959980
+!i10b 1
+!s100 `mbR9^fEW1c9g61>GAM4j2
+IINz>j]J0YbPFZGga]Bgo_0
+R2
+R0
+w1698075068
+8C:/Users/Vacn/Desktop/checkpoint4/rca_12.v
+FC:/Users/Vacn/Desktop/checkpoint4/rca_12.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Vacn/Desktop/checkpoint4/rca_12.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/rca_12.v|
+!i113 1
+R5
+R6
+R7
+vreg_12
+R15
+!i10b 1
+!s100 7Oil4`]O@12GB7HW4d5563
+IjbEWb[5BA[RLTm?UCINNc2
+R2
+R0
+Z16 w1698114326
+Z17 8C:/Users/Vacn/Desktop/checkpoint4/reg_32.v
+Z18 FC:/Users/Vacn/Desktop/checkpoint4/reg_32.v
+L0 13
+R3
+r1
+!s85 0
+31
+R14
+Z19 !s107 C:/Users/Vacn/Desktop/checkpoint4/reg_32.v|
+Z20 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/reg_32.v|
+!i113 1
+R5
+R6
+R7
+vreg_32
+R15
+!i10b 1
+!s100 YBofGF8g37=j00K5ZR?be1
+IjRcJHC>d]JaQKXhNO@B@F1
+R2
+R0
+R16
+R17
+R18
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+R19
+R20
+!i113 1
+R5
+R6
+R7
+vregfile
+R15
+!i10b 1
+!s100 =W4YeYh>3kkG6^XN@]O3M1
+I3m[^d:1cST58blXd5AzoW0
+R2
+R0
+w1698195396
+8C:/Users/Vacn/Desktop/checkpoint4/regfile.v
+FC:/Users/Vacn/Desktop/checkpoint4/regfile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Vacn/Desktop/checkpoint4/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/regfile.v|
+!i113 1
+R5
+R6
+R7
+vskeleton
+R15
+!i10b 1
+!s100 ]T:dB<lS`_UL5cok[0gAK3
+IW8[Nhn0=GlKN1E3>`S:IF3
+R2
+R0
+w1698508938
+8C:/Users/Vacn/Desktop/checkpoint4/skeleton.v
+FC:/Users/Vacn/Desktop/checkpoint4/skeleton.v
+L0 12
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Vacn/Desktop/checkpoint4/skeleton.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/skeleton.v|
+!i113 1
+R5
+R6
+R7
+vsptest
+!s110 1698959982
+!i10b 1
+!s100 i9ACHjXYNHCCn`=7dbU;:1
+I0l=MY6]mnk@;0lVBBEP?a3
+R2
+R0
+w1698958708
+8D:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v
+FD:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1698959982.000000
+!s107 D:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/sptest|D:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/sptest
+R7
+vsx
+R15
+!i10b 1
+!s100 `aOQlmJn9g1=M[>jYeail3
+IM512CI_QG62AkCc4B]8Td3
+R2
+R0
+w1697351638
+8C:/Users/Vacn/Desktop/checkpoint4/sx.v
+FC:/Users/Vacn/Desktop/checkpoint4/sx.v
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Vacn/Desktop/checkpoint4/sx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vacn/Desktop/checkpoint4|C:/Users/Vacn/Desktop/checkpoint4/sx.v|
+!i113 1
+R5
+R6
+R7

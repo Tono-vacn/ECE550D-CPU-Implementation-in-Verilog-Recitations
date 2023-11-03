@@ -15,15 +15,15 @@ module PS2_Interface(inclock, resetn, ps2_clock, ps2_data, ps2_key_data, ps2_key
 			last_data_received <= 8'h00;
 		else if (ps2_key_pressed == 1'b1)
 			begin
-				if(ps2_key_data==8'h15)
-					last_data_received<=ps2_key_data + 8'h3C;
-				else if(ps2_key_data==8'h22)
-					last_data_received<=ps2_key_data + 8'h36;
-				else if(ps2_key_data==8'h21)
-					last_data_received<=ps2_key_data + 8'h16;
-				else if(ps2_key_data==8'h35)
-					last_data_received<=ps2_key_data + 8'h24;	
-		      else
+//				if(ps2_key_data==8'h15)
+//					last_data_received<=ps2_key_data + 8'h3C;
+//				else if(ps2_key_data==8'h22)
+//					last_data_received<=ps2_key_data + 8'h36;
+//				else if(ps2_key_data==8'h21)
+//					last_data_received<=ps2_key_data + 8'h16;
+//				else if(ps2_key_data==8'h35)
+//					last_data_received<=ps2_key_data + 8'h24;	
+//		      else
 					last_data_received <= ps2_key_data;
 			end
 

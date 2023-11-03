@@ -1,0 +1,204 @@
+# Reading D:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# ERROR: No extended dataflow license exists
+# do sptest_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/sx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:40 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/sx.v 
+# -- Compiling module sx
+# 
+# Top level modules:
+# 	sx
+# End time: 17:19:40 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/skeleton.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:40 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/skeleton.v 
+# -- Compiling module skeleton
+# 
+# Top level modules:
+# 	skeleton
+# End time: 17:19:40 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/regfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:40 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 17:19:40 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/reg_32.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:40 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/reg_32.v 
+# -- Compiling module reg_32
+# -- Compiling module reg_12
+# 
+# Top level modules:
+# 	reg_32
+# 	reg_12
+# End time: 17:19:40 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/rca_12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:40 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/rca_12.v 
+# -- Compiling module rca_12
+# 
+# Top level modules:
+# 	rca_12
+# End time: 17:19:40 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/processor.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:40 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/pc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/pc.v 
+# -- Compiling module pc_4
+# 
+# Top level modules:
+# 	pc_4
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/dffe.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/dffe.v 
+# -- Compiling module dffe_reg
+# 
+# Top level modules:
+# 	dffe_reg
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/ctrlLogic.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/ctrlLogic.v 
+# -- Compiling module ctrlLogic
+# 
+# Top level modules:
+# 	ctrlLogic
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/clock_divider.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/clock_divider.v 
+# -- Compiling module clock_divider
+# -- Compiling module clk_dffe
+# 
+# Top level modules:
+# 	clock_divider
+# 	clk_dffe
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/imem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/dmem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:41 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vacn/Desktop/checkpoint4" C:/Users/Vacn/Desktop/checkpoint4/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 17:19:41 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/sptest {D:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:19:42 on Nov 02,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA_lite/17.0/ECE550D/sptest" D:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v 
+# -- Compiling module sptest
+# 
+# Top level modules:
+# 	sptest
+# End time: 17:19:42 on Nov 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sptest
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sptest 
+# Start time: 17:19:42 on Nov 02,2023
+# Loading work.sptest
+# Loading work.clk_dffe
+# Loading work.dffe_reg
+# Loading work.imem
+# Loading altera_mf_ver.altsyncram
+# Loading work.dmem
+# Loading work.regfile
+# Loading work.processor
+# Loading work.pc_4
+# Loading work.rca_12
+# Loading work.full_adder
+# Loading work.reg_12
+# Loading work.ctrlLogic
+# Loading work.sx
+# Loading work.alu
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 << Starting the Simulation >>
+#                10040 << The simulation completed >>
+# ** Note: $stop    : D:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v(125)
+#    Time: 10040 ns  Iteration: 0  Instance: /sptest
+# Break in Module sptest at D:/intelFPGA_lite/17.0/ECE550D/sptest/sptest.v line 125
+# End time: 17:22:27 on Nov 02,2023, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 0

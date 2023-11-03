@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Simple_Processor
-Wed Oct 25 14:46:21 2023
+Thu Nov 02 21:25:47 2023
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -15,24 +15,25 @@ Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis IP Cores Summary
   9. Registers Removed During Synthesis
- 10. Removed Registers Triggering Further Register Optimizations
- 11. General Register Statistics
- 12. Source assignments for imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated
- 13. Source assignments for dmem:my_dmem|altsyncram:altsyncram_component|altsyncram_l9g1:auto_generated
- 14. Parameter Settings for User Entity Instance: imem:my_imem|altsyncram:altsyncram_component
- 15. Parameter Settings for User Entity Instance: dmem:my_dmem|altsyncram:altsyncram_component
- 16. altsyncram Parameter Settings by Entity Instance
+ 10. General Register Statistics
+ 11. Source assignments for imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated
+ 12. Source assignments for dmem:my_dmem|altsyncram:altsyncram_component|altsyncram_l9g1:auto_generated
+ 13. Parameter Settings for User Entity Instance: imem:my_imem|altsyncram:altsyncram_component
+ 14. Parameter Settings for User Entity Instance: dmem:my_dmem|altsyncram:altsyncram_component
+ 15. altsyncram Parameter Settings by Entity Instance
+ 16. Port Connectivity Checks: "processor:my_processor|MUX41:getDataReg"
  17. Port Connectivity Checks: "processor:my_processor|alu:a_alu"
  18. Port Connectivity Checks: "processor:my_processor|ctrlLogic:getcode"
- 19. Port Connectivity Checks: "processor:my_processor|reg_12:pc"
- 20. Port Connectivity Checks: "processor:my_processor|pc_4:getpc|rca_12:add4"
- 21. Port Connectivity Checks: "clk_dffe:clk4"
- 22. Port Connectivity Checks: "clk_dffe:clk2|dffe_reg:dff_ins"
- 23. Port Connectivity Checks: "clk_dffe:clk2"
- 24. Post-Synthesis Netlist Statistics for Top Partition
- 25. Elapsed Time Per Partition
- 26. Analysis & Synthesis Messages
- 27. Analysis & Synthesis Suppressed Messages
+ 19. Port Connectivity Checks: "processor:my_processor|brgen:getb|alu:getb"
+ 20. Port Connectivity Checks: "processor:my_processor|reg_12:pc"
+ 21. Port Connectivity Checks: "processor:my_processor|pc_4:getpc|rca_12:add4"
+ 22. Port Connectivity Checks: "clk_dffe:clk4"
+ 23. Port Connectivity Checks: "clk_dffe:clk2|dffe_reg:dff_ins"
+ 24. Port Connectivity Checks: "clk_dffe:clk2"
+ 25. Post-Synthesis Netlist Statistics for Top Partition
+ 26. Elapsed Time Per Partition
+ 27. Analysis & Synthesis Messages
+ 28. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -59,15 +60,15 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Oct 25 14:46:21 2023       ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 02 21:25:47 2023       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; Simple_Processor                            ;
 ; Top-level Entity Name              ; skeleton                                    ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1                                           ;
-;     Total combinational functions  ; 1                                           ;
-;     Dedicated logic registers      ; 1                                           ;
-; Total registers                    ; 1                                           ;
+; Total logic elements               ; 2                                           ;
+;     Total combinational functions  ; 2                                           ;
+;     Dedicated logic registers      ; 2                                           ;
+; Total registers                    ; 2                                           ;
 ; Total pins                         ; 6                                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -179,38 +180,41 @@ agreement for further details.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                     ;
-+-------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path          ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                              ; Library ;
-+-------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------+---------+
-; alu_test.v                                ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/alu_test.v                                ;         ;
-; skeleton.v                                ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v                                ;         ;
-; regfile.v                                 ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/regfile.v                                 ;         ;
-; processor.v                               ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v                               ;         ;
-; dffe.v                                    ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dffe.v                                    ;         ;
-; reg_32.v                                  ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v                                  ;         ;
-; full_adder.v                              ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/full_adder.v                              ;         ;
-; sx.v                                      ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v                                      ;         ;
-; pc.v                                      ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v                                      ;         ;
-; rca_12.v                                  ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_12.v                                  ;         ;
-; ctrlLogic.v                               ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/ctrlLogic.v                               ;         ;
-; imem.v                                    ; yes             ; User Wizard-Generated File             ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v                                    ;         ;
-; dmem.v                                    ; yes             ; User Wizard-Generated File             ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v                                    ;         ;
-; clock_divider.v                           ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v                           ;         ;
-; altsyncram.tdf                            ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf                     ;         ;
-; stratix_ram_block.inc                     ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratix_ram_block.inc              ;         ;
-; lpm_mux.inc                               ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mux.inc                        ;         ;
-; lpm_decode.inc                            ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_decode.inc                     ;         ;
-; aglobal170.inc                            ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/aglobal170.inc                     ;         ;
-; a_rdenreg.inc                             ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_rdenreg.inc                      ;         ;
-; altrom.inc                                ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altrom.inc                         ;         ;
-; altram.inc                                ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altram.inc                         ;         ;
-; altdpram.inc                              ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altdpram.inc                       ;         ;
-; db/altsyncram_uqg1.tdf                    ; yes             ; Auto-Generated Megafunction            ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf                    ;         ;
-; mif_outputs/mif_outputs/halftestcases.mif ; yes             ; Auto-Found Memory Initialization File  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mif_outputs/mif_outputs/halftestcases.mif ;         ;
-; db/altsyncram_l9g1.tdf                    ; yes             ; Auto-Generated Megafunction            ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_l9g1.tdf                    ;         ;
-+-------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                     ;
++-------------------------------------------------------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                                                          ; Used in Netlist ; File Type                              ; File Name with Absolute Path                                                              ; Library ;
++-------------------------------------------------------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------+---------+
+; alu_test.v                                                                                ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/alu_test.v                                ;         ;
+; skeleton.v                                                                                ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v                                ;         ;
+; regfile.v                                                                                 ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/regfile.v                                 ;         ;
+; processor.v                                                                               ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v                               ;         ;
+; dffe.v                                                                                    ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dffe.v                                    ;         ;
+; reg_32.v                                                                                  ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v                                  ;         ;
+; full_adder.v                                                                              ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/full_adder.v                              ;         ;
+; mux.v                                                                                     ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v                                     ;         ;
+; sx.v                                                                                      ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v                                      ;         ;
+; pc.v                                                                                      ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v                                      ;         ;
+; rca_12.v                                                                                  ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_12.v                                  ;         ;
+; ctrlLogic.v                                                                               ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/ctrlLogic.v                               ;         ;
+; imem.v                                                                                    ; yes             ; User Wizard-Generated File             ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v                                    ;         ;
+; dmem.v                                                                                    ; yes             ; User Wizard-Generated File             ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v                                    ;         ;
+; clock_divider.v                                                                           ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v                           ;         ;
+; convert_12_32.v                                                                           ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v                           ;         ;
+; brgen.v                                                                                   ; yes             ; User Verilog HDL File                  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v                                   ;         ;
+; altsyncram.tdf                                                                            ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf                     ;         ;
+; stratix_ram_block.inc                                                                     ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/stratix_ram_block.inc              ;         ;
+; lpm_mux.inc                                                                               ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_mux.inc                        ;         ;
+; lpm_decode.inc                                                                            ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/lpm_decode.inc                     ;         ;
+; aglobal170.inc                                                                            ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/aglobal170.inc                     ;         ;
+; a_rdenreg.inc                                                                             ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/a_rdenreg.inc                      ;         ;
+; altrom.inc                                                                                ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altrom.inc                         ;         ;
+; altram.inc                                                                                ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altram.inc                         ;         ;
+; altdpram.inc                                                                              ; yes             ; Megafunction                           ; d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altdpram.inc                       ;         ;
+; db/altsyncram_mrg1.tdf                                                                    ; yes             ; Auto-Generated Megafunction            ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf                    ;         ;
+; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mif_outputs/mif_outputs/FullTestCases.mif ; yes             ; Auto-Found Memory Initialization File  ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mif_outputs/mif_outputs/FullTestCases.mif ;         ;
+; db/altsyncram_l9g1.tdf                                                                    ; yes             ; Auto-Generated Megafunction            ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_l9g1.tdf                    ;         ;
++-------------------------------------------------------------------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------------------+
@@ -218,20 +222,20 @@ agreement for further details.
 +---------------------------------------------+----------------------------------+
 ; Resource                                    ; Usage                            ;
 +---------------------------------------------+----------------------------------+
-; Estimated Total logic elements              ; 1                                ;
+; Estimated Total logic elements              ; 2                                ;
 ;                                             ;                                  ;
-; Total combinational functions               ; 1                                ;
+; Total combinational functions               ; 2                                ;
 ; Logic element usage by number of LUT inputs ;                                  ;
 ;     -- 4 input functions                    ; 0                                ;
 ;     -- 3 input functions                    ; 0                                ;
-;     -- <=2 input functions                  ; 1                                ;
+;     -- <=2 input functions                  ; 2                                ;
 ;                                             ;                                  ;
 ; Logic elements by mode                      ;                                  ;
-;     -- normal mode                          ; 1                                ;
+;     -- normal mode                          ; 2                                ;
 ;     -- arithmetic mode                      ; 0                                ;
 ;                                             ;                                  ;
-; Total registers                             ; 1                                ;
-;     -- Dedicated logic registers            ; 1                                ;
+; Total registers                             ; 2                                ;
+;     -- Dedicated logic registers            ; 2                                ;
 ;     -- I/O registers                        ; 0                                ;
 ;                                             ;                                  ;
 ; I/O pins                                    ; 6                                ;
@@ -240,8 +244,8 @@ agreement for further details.
 ;                                             ;                                  ;
 ; Maximum fan-out node                        ; clk_dffe:clk4|dffe_reg:dff_ins|q ;
 ; Maximum fan-out                             ; 3                                ;
-; Total fan-out                               ; 14                               ;
-; Average fan-out                             ; 1.00                             ;
+; Total fan-out                               ; 18                               ;
+; Average fan-out                             ; 1.13                             ;
 +---------------------------------------------+----------------------------------+
 
 
@@ -250,7 +254,9 @@ agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                      ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------+-------------+--------------+
-; |skeleton                  ; 1 (0)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 6    ; 0            ; |skeleton                                ; skeleton    ; work         ;
+; |skeleton                  ; 2 (0)               ; 2 (0)                     ; 0           ; 0            ; 0       ; 0         ; 6    ; 0            ; |skeleton                                ; skeleton    ; work         ;
+;    |clk_dffe:clk2|         ; 1 (0)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |skeleton|clk_dffe:clk2                  ; clk_dffe    ; work         ;
+;       |dffe_reg:dff_ins|   ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |skeleton|clk_dffe:clk2|dffe_reg:dff_ins ; dffe_reg    ; work         ;
 ;    |clk_dffe:clk4|         ; 1 (0)               ; 1 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |skeleton|clk_dffe:clk4                  ; clk_dffe    ; work         ;
 ;       |dffe_reg:dff_ins|   ; 1 (1)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |skeleton|clk_dffe:clk4|dffe_reg:dff_ins ; dffe_reg    ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------+-------------+--------------+
@@ -1312,34 +1318,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------------------------+--------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                           ;
-+----------------------------------------------------------------+--------------------+-----------------------------------------------------------------+
-; Register name                                                  ; Reason for Removal ; Registers Removed due to This Register                          ;
-+----------------------------------------------------------------+--------------------+-----------------------------------------------------------------+
-; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[11].df|q ; Lost Fanouts       ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[10].df|q, ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[9].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[8].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[7].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[6].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[5].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[4].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[3].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[2].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[1].df|q,  ;
-;                                                                ;                    ; processor:my_processor|reg_12:pc|dffe_reg:reg_loop_12[0].df|q   ;
-+----------------------------------------------------------------+--------------------+-----------------------------------------------------------------+
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1     ;
+; Total registers                              ; 2     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 1     ;
+; Number of registers using Asynchronous Clear ; 2     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -1347,7 +1334,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +----------------------------------------------------------------------------------------------------+
-; Source assignments for imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated ;
+; Source assignments for imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated ;
 +---------------------------------+--------------------+------+--------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                   ;
 +---------------------------------+--------------------+------+--------------------------------------+
@@ -1407,7 +1394,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                 ; Untyped        ;
 ; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ                                                                      ; Untyped        ;
 ; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ                                                                      ; Untyped        ;
-; INIT_FILE                          ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mif_outputs/mif_outputs/halfTestCases.mif ; Untyped        ;
+; INIT_FILE                          ; D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mif_outputs/mif_outputs/FullTestCases.mif ; Untyped        ;
 ; INIT_FILE_LAYOUT                   ; PORT_A                                                                                    ; Untyped        ;
 ; MAXIMUM_DEPTH                      ; 0                                                                                         ; Untyped        ;
 ; CLOCK_ENABLE_INPUT_A               ; BYPASS                                                                                    ; Untyped        ;
@@ -1420,7 +1407,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                                                                                     ; Untyped        ;
 ; WIDTH_ECCSTATUS                    ; 3                                                                                         ; Untyped        ;
 ; DEVICE_FAMILY                      ; Cyclone IV E                                                                              ; Untyped        ;
-; CBXI_PARAMETER                     ; altsyncram_uqg1                                                                           ; Untyped        ;
+; CBXI_PARAMETER                     ; altsyncram_mrg1                                                                           ; Untyped        ;
 +------------------------------------+-------------------------------------------------------------------------------------------+----------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -1517,6 +1504,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------------------------------+----------------------------------------------+
 
 
++---------------------------------------------------------------------+
+; Port Connectivity Checks: "processor:my_processor|MUX41:getDataReg" ;
++------+-------+----------+-------------------------------------------+
+; Port ; Type  ; Severity ; Details                                   ;
++------+-------+----------+-------------------------------------------+
+; in3  ; Input ; Info     ; Stuck at GND                              ;
++------+-------+----------+-------------------------------------------+
+
+
 +----------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "processor:my_processor|alu:a_alu"                                                         ;
 +------------+--------+----------+-------------------------------------------------------------------------------------+
@@ -1534,6 +1530,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +--------+--------+----------+-------------------------------------------------------------------------------------+
 ; is_imm ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +--------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "processor:my_processor|brgen:getb|alu:getb"                                                   ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port           ; Type   ; Severity ; Details                                                                             ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
+; ctrl_ALUopcode ; Input  ; Info     ; Stuck at GND                                                                        ;
+; ctrl_shiftamt  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; data_result    ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; overflow       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +--------------------------------------------------------------+
@@ -1580,7 +1588,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port ; Type   ; Severity ; Details                                                                             ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
-; out  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; out_ ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------+--------+----------+-------------------------------------------------------------------------------------+
 
@@ -1591,14 +1598,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 6                           ;
-; cycloneiii_ff         ; 1                           ;
-;     CLR               ; 1                           ;
-; cycloneiii_lcell_comb ; 2                           ;
-;     normal            ; 2                           ;
-;         1 data inputs ; 2                           ;
+; cycloneiii_ff         ; 2                           ;
+;     CLR               ; 2                           ;
+; cycloneiii_lcell_comb ; 4                           ;
+;     normal            ; 4                           ;
+;         1 data inputs ; 4                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 0.60                        ;
+; Average LUT depth     ; 0.88                        ;
 +-----------------------+-----------------------------+
 
 
@@ -1617,7 +1624,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
-    Info: Processing started: Wed Oct 25 14:46:11 2023
+    Info: Processing started: Thu Nov 02 21:25:37 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Simple_Processor -c Simple_Processor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1669,12 +1676,15 @@ Info (12021): Found 4 design units, including 4 entities, in source file zero_de
     Info (12023): Found entity 3: or_8 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/zero_det.v Line: 19
     Info (12023): Found entity 4: or_4 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/zero_det.v Line: 28
 Warning (12090): Entity "mux" obtained from "mux.v" instead of from Quartus Prime megafunction library File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 1
-Info (12021): Found 5 design units, including 5 entities, in source file mux.v
+Warning (12090): Entity "MUX41" obtained from "mux.v" instead of from Quartus Prime megafunction library File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 38
+Info (12021): Found 7 design units, including 7 entities, in source file mux.v
     Info (12023): Found entity 1: mux File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 1
     Info (12023): Found entity 2: mux_8 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 7
     Info (12023): Found entity 3: mux_16 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 14
     Info (12023): Found entity 4: mux_32 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 21
     Info (12023): Found entity 5: mux_32_5 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 28
+    Info (12023): Found entity 6: MUX41 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 38
+    Info (12023): Found entity 7: MUX2 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 50
 Info (12021): Found 1 design units, including 1 entities, in source file alu_tb.v
     Info (12023): Found entity 1: alu_tb File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/alu_tb.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file sx.v
@@ -1696,25 +1706,30 @@ Info (12021): Found 2 design units, including 2 entities, in source file clock_d
     Info (12023): Found entity 2: clk_dffe File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v Line: 16
 Info (12021): Found 1 design units, including 1 entities, in source file skeleton_tb.v
     Info (12023): Found entity 1: skeleton_tb File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v Line: 2
-Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(23): created implicit net for "clock_2" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(23): created implicit net for "clock_2_" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(24): created implicit net for "clock_4" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 24
-Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(24): created implicit net for "clock_4_" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 24
+Info (12021): Found 2 design units, including 2 entities, in source file convert_12_32.v
+    Info (12023): Found entity 1: Convert_12_32 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v Line: 1
+    Info (12023): Found entity 2: Convert_32_12 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v Line: 9
+Info (12021): Found 1 design units, including 1 entities, in source file brgen.v
+    Info (12023): Found entity 1: brgen File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(24): created implicit net for "clock_2" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 24
+Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(24): created implicit net for "clock_2_" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 24
+Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(25): created implicit net for "clock_4" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 25
+Warning (10236): Verilog HDL Implicit Net warning at skeleton.v(25): created implicit net for "clock_4_" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 25
 Warning (10236): Verilog HDL Implicit Net warning at skeleton_tb.v(13): created implicit net for "clock_2" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v Line: 13
 Warning (10236): Verilog HDL Implicit Net warning at skeleton_tb.v(13): created implicit net for "clock_2_" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v Line: 13
 Warning (10236): Verilog HDL Implicit Net warning at skeleton_tb.v(14): created implicit net for "clock_4" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v Line: 14
 Warning (10236): Verilog HDL Implicit Net warning at skeleton_tb.v(14): created implicit net for "clock_4_" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v Line: 14
 Info (12127): Elaborating entity "skeleton" for the top level hierarchy
-Info (12128): Elaborating entity "clk_dffe" for hierarchy "clk_dffe:clk2" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 23
+Info (12128): Elaborating entity "clk_dffe" for hierarchy "clk_dffe:clk2" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 24
 Info (12128): Elaborating entity "dffe_reg" for hierarchy "clk_dffe:clk2|dffe_reg:dff_ins" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v Line: 22
-Info (12128): Elaborating entity "imem" for hierarchy "imem:my_imem" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 40
+Info (12128): Elaborating entity "imem" for hierarchy "imem:my_imem" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 41
 Info (12128): Elaborating entity "altsyncram" for hierarchy "imem:my_imem|altsyncram:altsyncram_component" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v Line: 82
 Info (12130): Elaborated megafunction instantiation "imem:my_imem|altsyncram:altsyncram_component" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v Line: 82
 Info (12133): Instantiated megafunction "imem:my_imem|altsyncram:altsyncram_component" with the following parameter: File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v Line: 82
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
-    Info (12134): Parameter "init_file" = "D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mif_outputs/mif_outputs/halfTestCases.mif"
+    Info (12134): Parameter "init_file" = "D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mif_outputs/mif_outputs/FullTestCases.mif"
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
@@ -1725,10 +1740,10 @@ Info (12133): Instantiated megafunction "imem:my_imem|altsyncram:altsyncram_comp
     Info (12134): Parameter "widthad_a" = "12"
     Info (12134): Parameter "width_a" = "32"
     Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_uqg1.tdf
-    Info (12023): Found entity 1: altsyncram_uqg1 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 28
-Info (12128): Elaborating entity "altsyncram_uqg1" for hierarchy "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated" File: d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "dmem" for hierarchy "dmem:my_dmem" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 55
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_mrg1.tdf
+    Info (12023): Found entity 1: altsyncram_mrg1 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 28
+Info (12128): Elaborating entity "altsyncram_mrg1" for hierarchy "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated" File: d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:my_dmem" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 56
 Info (12128): Elaborating entity "altsyncram" for hierarchy "dmem:my_dmem|altsyncram:altsyncram_component" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v Line: 86
 Info (12130): Elaborated megafunction instantiation "dmem:my_dmem|altsyncram:altsyncram_component" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v Line: 86
 Info (12133): Instantiated megafunction "dmem:my_dmem|altsyncram:altsyncram_component" with the following parameter: File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v Line: 86
@@ -1749,17 +1764,22 @@ Info (12133): Instantiated megafunction "dmem:my_dmem|altsyncram:altsyncram_comp
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_l9g1.tdf
     Info (12023): Found entity 1: altsyncram_l9g1 File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_l9g1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_l9g1" for hierarchy "dmem:my_dmem|altsyncram:altsyncram_component|altsyncram_l9g1:auto_generated" File: d:/intelfpga_lite/17.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "regfile" for hierarchy "regfile:my_regfile" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 73
+Info (12128): Elaborating entity "regfile" for hierarchy "regfile:my_regfile" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 74
 Warning (10240): Verilog HDL Always Construct warning at regfile.v(14): inferring latch(es) for variable "i", which holds its previous value in one or more paths through the always construct File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/regfile.v Line: 14
-Info (12128): Elaborating entity "processor" for hierarchy "processor:my_processor" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 99
-Info (12128): Elaborating entity "pc_4" for hierarchy "processor:my_processor|pc_4:getpc" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 104
+Info (12128): Elaborating entity "processor" for hierarchy "processor:my_processor" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v Line: 100
+Info (12128): Elaborating entity "pc_4" for hierarchy "processor:my_processor|pc_4:getpc" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 105
 Info (12128): Elaborating entity "rca_12" for hierarchy "processor:my_processor|pc_4:getpc|rca_12:add4" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v Line: 37
 Info (12128): Elaborating entity "full_adder" for hierarchy "processor:my_processor|pc_4:getpc|rca_12:add4|full_adder:FA1" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_12.v Line: 13
-Info (12128): Elaborating entity "reg_12" for hierarchy "processor:my_processor|reg_12:pc" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 105
-Info (12128): Elaborating entity "ctrlLogic" for hierarchy "processor:my_processor|ctrlLogic:getcode" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 107
-Info (12128): Elaborating entity "sx" for hierarchy "processor:my_processor|sx:sx_sx" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 111
-Info (12128): Elaborating entity "alu" for hierarchy "processor:my_processor|alu:a_alu" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 115
+Info (12128): Elaborating entity "reg_12" for hierarchy "processor:my_processor|reg_12:pc" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 106
+Info (12128): Elaborating entity "brgen" for hierarchy "processor:my_processor|brgen:getb" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 108
+Info (12128): Elaborating entity "alu" for hierarchy "processor:my_processor|brgen:getb|alu:getb" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v Line: 8
 Warning (10270): Verilog HDL Case Statement warning at alu_test.v(25): incomplete case statement has no default case item File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/alu_test.v Line: 25
+Info (12128): Elaborating entity "ctrlLogic" for hierarchy "processor:my_processor|ctrlLogic:getcode" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 111
+Info (12128): Elaborating entity "sx" for hierarchy "processor:my_processor|sx:sx_sx" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 114
+Info (12128): Elaborating entity "Convert_12_32" for hierarchy "processor:my_processor|Convert_12_32:c12_32" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 121
+Info (12128): Elaborating entity "MUX41" for hierarchy "processor:my_processor|MUX41:getDataReg" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 157
+Info (12128): Elaborating entity "MUX2" for hierarchy "processor:my_processor|MUX41:getDataReg|MUX2:m0" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v Line: 44
+Info (12128): Elaborating entity "Convert_32_12" for hierarchy "processor:my_processor|Convert_32_12:to12" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v Line: 161
 Warning (14284): Synthesized away the following node(s):
     Warning (14285): Synthesized away the following RAM node(s):
         Warning (14320): Synthesized away node "dmem:my_dmem|altsyncram:altsyncram_component|altsyncram_l9g1:auto_generated|q_a[0]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_l9g1.tdf Line: 37
@@ -1794,52 +1814,52 @@ Warning (14284): Synthesized away the following node(s):
         Warning (14320): Synthesized away node "dmem:my_dmem|altsyncram:altsyncram_component|altsyncram_l9g1:auto_generated|q_a[29]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_l9g1.tdf Line: 675
         Warning (14320): Synthesized away node "dmem:my_dmem|altsyncram:altsyncram_component|altsyncram_l9g1:auto_generated|q_a[30]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_l9g1.tdf Line: 697
         Warning (14320): Synthesized away node "dmem:my_dmem|altsyncram:altsyncram_component|altsyncram_l9g1:auto_generated|q_a[31]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_l9g1.tdf Line: 719
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[0]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 35
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[1]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 57
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[2]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 79
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[3]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 101
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[4]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 123
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[5]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 145
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[6]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 167
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[7]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 189
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[8]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 211
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[9]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 233
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[10]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 255
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[11]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 277
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[12]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 299
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[13]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 321
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[14]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 343
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[15]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 365
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[16]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 387
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[17]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 409
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[18]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 431
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[19]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 453
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[20]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 475
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[21]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 497
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[22]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 519
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[23]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 541
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[24]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 563
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[25]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 585
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[26]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 607
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[27]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 629
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[28]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 651
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[29]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 673
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[30]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 695
-        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_uqg1:auto_generated|q_a[31]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_uqg1.tdf Line: 717
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[0]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 35
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[1]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 57
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[2]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 79
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[3]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 101
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[4]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 123
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[5]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 145
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[6]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 167
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[7]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 189
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[8]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 211
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[9]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 233
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[10]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 255
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[11]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 277
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[12]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 299
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[13]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 321
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[14]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 343
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[15]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 365
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[16]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 387
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[17]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 409
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[18]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 431
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[19]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 453
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[20]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 475
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[21]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 497
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[22]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 519
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[23]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 541
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[24]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 563
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[25]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 585
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[26]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 607
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[27]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 629
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[28]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 651
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[29]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 673
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[30]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 695
+        Warning (14320): Synthesized away node "imem:my_imem|altsyncram:altsyncram_component|altsyncram_mrg1:auto_generated|q_a[31]" File: D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/db/altsyncram_mrg1.tdf Line: 717
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 1036 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/output_files/Simple_Processor.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 7 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 8 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 1 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 78 warnings
-    Info: Peak virtual memory: 4780 megabytes
-    Info: Processing ended: Wed Oct 25 14:46:21 2023
+    Info (21061): Implemented 2 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 79 warnings
+    Info: Peak virtual memory: 4783 megabytes
+    Info: Processing ended: Thu Nov 02 21:25:47 2023
     Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +------------------------------------------+

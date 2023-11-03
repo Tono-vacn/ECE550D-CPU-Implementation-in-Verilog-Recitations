@@ -5,7 +5,11 @@ module vga_controller(iRST_n,
                       oVS,
                       b_data,
                       g_data,
-                      r_data);
+                      r_data,
+							 right,
+							 left,
+							 up,
+							 down);
 
 	
 input iRST_n;
@@ -23,6 +27,12 @@ wire VGA_CLK_n;
 wire [7:0] index;
 wire [23:0] bgr_data_raw;
 wire cBLANK_n,cHS,cVS,rst;
+
+////
+
+input right,left,up,down;
+wire [9:0] cur_x,cur_y;
+
 ////
 assign rst = ~iRST_n;
 video_sync_generator LTM_ins (.vga_clk(iVGA_CLK),
@@ -61,7 +71,14 @@ img_index	img_index_inst (
 	);	
 //////
 //////latch valid data at falling edge;
-always@(posedge VGA_CLK_n) bgr_data <= bgr_data_raw;
+always@(posedge VGA_CLK_n) begin
+	if(cur_x>x && cur_x<x+60 && cur_y>y && cur_y<y+60) begin
+		bgr_data<=24'hfff000;
+	end
+	else begin
+		bgr_data <= bgr_data_raw;
+	end
+end
 assign b_data = bgr_data[23:16];
 assign g_data = bgr_data[15:8];
 assign r_data = bgr_data[7:0]; 
@@ -72,6 +89,38 @@ begin
   oHS<=cHS;
   oVS<=cVS;
   oBLANK_n<=cBLANK_n;
+end
+
+converter cv(ADDR, cur_x,cur_y);
+
+reg[9:0] x,y;
+initial
+begin
+
+	x<=10'b0;
+	y<=10'b0;
+
+end
+
+reg[31:0] count;
+initial count =1;
+
+always @(posedge iVGA_CLK) begin
+	if(count%32'd20000==0) begin
+		if(right==1'b0) begin
+			y<=y+10'd1;
+		end
+		else if(left == 1'b0) begin
+			y<=y-10'd1;
+		end
+		else if(up==1'b0) begin
+			x<=x-10'd1;
+		end
+		else if(down==1'b0) begin
+			x<=x+10'd1;
+		end
+	end
+	count<=count+1;
 end
 
 endmodule

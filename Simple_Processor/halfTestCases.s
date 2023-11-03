@@ -3,11 +3,16 @@ nop
 addi $1, $0, 65535      # r1 = 65535 = 0x0000FFFF
 sll $2, $1, 15			# r2 = r1 << 15 = 0x7FFF8000 = 2147450880(decimal)
 addi $3, $2, 32767		# r3 = r2 + 32767 = 0x7FFF8000 + 0x00007FFF = 0x7FFFFFFF(hex) = 2147483647(decimal)
+addi $5, $3, 1      # * r5 = r3 + 1 = 0x7FFFFFFF + 1 = 0x80000000(hex) = -2147483648(decimal)
+
 addi $4, $0, 1			# r4 = 1
+add $8, $3, $4			# * r8 = r3 + r4 = 2147483647 + 1 = -2147483648(decimal)
+
 add $6, $1, $4			# r6 = 65535 + 1 = 65536  (normal addition) (then how about overflow addition?)
-sll $7, $4, 31			# r7 = r4 << 31 = 0x80000000(hex) = -2147483648(decimal)
+sll $7, $4, 31			# **r7 = r4 << 31 = 0x80000000(hex) = -2147483648(decimal) shouldn't overflow?
 sub $9, $1, $4			# r9 = r1 - r4 = 65535 - 1 = 65534 (normal sub) (then how about overflow sub?)
 and $10, $1, $2			# r10 = r1 & r2 = 0x0000FFFF & 0x7FFF8000 = 0x00008000(hex) = 32768(decimal)
+
 or $12, $1, $2			# r12 = r1 | r2 = 0x0000FFFF | 0x7FFF8000 = 0x7FFFFFFF(hex) = 2147483647(decimal)
 
 addi $20, $0, 2         # r20 = 2
@@ -25,3 +30,7 @@ sw $1, 0($27)			# store 65535 into address 456
 lw $28, 1($0)			# load 1 from address 1 into r28
 lw $29, 2($0)			# load 2 from address 2 into r29
 lw $19, 0($27)			# load 65535 from address 456 into r19
+
+addi $9, $0, 61871
+addi $3, $0, -31271
+or $12, $9, $3 # r12 = 61871 | -31271 = -1

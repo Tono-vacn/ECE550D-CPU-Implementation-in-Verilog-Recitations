@@ -1,0 +1,22 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/sx.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/skeleton.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/reg_32.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/rca_12.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/processor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/pc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/full_adder.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/dffe.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/ctrlLogic.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/clock_divider.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/imem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Vacn/Desktop/checkpoint4 {C:/Users/Vacn/Desktop/checkpoint4/dmem.v}
+
