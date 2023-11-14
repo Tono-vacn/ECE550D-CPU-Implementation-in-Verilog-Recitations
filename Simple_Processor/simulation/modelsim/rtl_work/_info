@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/modelsim
 valu
-Z1 !s110 1698974771
+Z1 !s110 1700000485
 !i10b 1
 !s100 CM2POFHhm`MRQRPIcjMQG0
 Ij>`SUnC<XFSVPiiYblfb^0
@@ -23,133 +23,65 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1698974771.000000
+!s108 1700000484.000000
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/alu_test.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/alu_test.v|
 !i113 1
-Z5 o-vlog01compat -work work
-Z6 !s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor
-Z7 tCvgOpt 0
-vbrgen
-Z8 !s110 1698974772
-!i10b 1
-!s100 =5HJj=0k[INbG7]>D^LP51
-IfaVSW6BWFPZ;:T?cFcRS=1
-R2
-R0
-w1698784696
-8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v
-FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v
-L0 1
-R3
-r1
-!s85 0
-31
-Z9 !s108 1698974772.000000
-!s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/brgen.v|
-!i113 1
-R5
-R6
-R7
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor
+Z6 tCvgOpt 0
 vclk_dffe
-R8
+R1
 !i10b 1
 !s100 6Yd4@=M70g_oJjNV?RUd@3
 ISBgEQ?ReG[<I8FWlADoP>2
 R2
 R0
-Z10 w1698108831
-Z11 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v
-Z12 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v
+Z7 w1698108831
+Z8 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v
+Z9 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v
 L0 16
 R3
 r1
 !s85 0
 31
-R9
-Z13 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v|
-Z14 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v|
+Z10 !s108 1700000485.000000
+Z11 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/clock_divider.v|
 !i113 1
+R4
 R5
 R6
-R7
 vclock_divider
-R8
+R1
 !i10b 1
 !s100 `coah869;7lRYdehhBO8C3
 I5l^H=?>;3P?bYgV]VaaG?0
 R2
 R0
+R7
+R8
+R9
+L0 1
+R3
+r1
+!s85 0
+31
 R10
 R11
 R12
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-R13
-R14
 !i113 1
+R4
 R5
 R6
-R7
-vConvert_12_32
-R8
-!i10b 1
-!s100 ffJY4MC`A_Qj?aPdMm=;h2
-I?mOhb]QR=11Nc_kLaXcJf2
-R2
-R0
-Z15 w1698780373
-Z16 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v
-Z17 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-Z18 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v|
-Z19 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/convert_12_32.v|
-!i113 1
-R5
-R6
-R7
-n@convert_12_32
-vConvert_32_12
-R8
-!i10b 1
-!s100 2eediHEXg=GEmJVi^GSeN2
-Ia?72^_IB]hjBNZEYl4R3k0
-R2
-R0
-R15
-R16
-R17
-L0 9
-R3
-r1
-!s85 0
-31
-R9
-R18
-R19
-!i113 1
-R5
-R6
-R7
-n@convert_32_12
 vctrlLogic
-R8
+R1
 !i10b 1
-!s100 A^Le<[SR=<0;li5d^Cz752
-I^66hNHJ4;5:nY@9T@6RS52
+!s100 FMbG1m6D?KM:dNkWVZSg`2
+IeHAPCIY@zf0HRdhWTdG=Q0
 R2
 R0
-w1698785615
+w1699999404
 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/ctrlLogic.v
 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/ctrlLogic.v
 L0 1
@@ -157,16 +89,16 @@ R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/ctrlLogic.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/ctrlLogic.v|
 !i113 1
+R4
 R5
 R6
-R7
 nctrl@logic
 vdffe_reg
-R8
+R1
 !i10b 1
 !s100 f[O97k2Xn=iFbmkc@aQZA3
 IAl<T8XjO5=ILX@h5;c?gf3
@@ -180,15 +112,15 @@ R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dffe.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dffe.v|
 !i113 1
+R4
 R5
 R6
-R7
 vdmem
-R8
+R1
 !i10b 1
 !s100 :_CnPz_9^IOZf^LY1B88U0
 IOmC3h^V?A:bII3UaihJQB2
@@ -197,20 +129,20 @@ R0
 w1698110239
 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v
 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v
-Z20 L0 40
+Z13 L0 40
 R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/dmem.v|
 !i113 1
+R4
 R5
 R6
-R7
 vfull_adder
-R8
+R1
 !i10b 1
 !s100 3bP0MB]hU80DIKPiFCh<^0
 I7z:mzR32bTE=nfadioj;Y2
@@ -224,15 +156,15 @@ R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/full_adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/full_adder.v|
 !i113 1
+R4
 R5
 R6
-R7
 vimem
-R8
+R1
 !i10b 1
 !s100 25]fN9R:jMjm>zmb2e9@a0
 IWdNZR?B]jICNAR@17:HmI2
@@ -241,264 +173,108 @@ R0
 w1698974735
 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v
 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v
-R20
+R13
 R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/imem.v|
 !i113 1
+R4
 R5
 R6
-R7
-vmux
-R8
-!i10b 1
-!s100 Xa3N[LF87VQPBfbRMBID>0
-IS]hndggfiZK5X7h9;]Jzm1
-R2
-R0
-Z21 w1698779976
-Z22 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v
-Z23 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v
-L0 1
-R3
-r1
-!s85 0
-31
-R9
-Z24 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v|
-Z25 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/mux.v|
-!i113 1
-R5
-R6
-R7
-vMUX2
-R8
-!i10b 1
-!s100 gj[59W6dN6F0[o1bleLng3
-IOk[XeMRb]1P>9j58gG2F71
-R2
-R0
-R21
-R22
-R23
-Z26 L0 50
-R3
-r1
-!s85 0
-31
-R9
-R24
-R25
-!i113 1
-R5
-R6
-R7
-n@m@u@x2
-vMUX41
-R8
-!i10b 1
-!s100 TndNZc1NB3;6h]Bz]80[J0
-I5XHfBg2LNbA3O^U<MW=]F1
-R2
-R0
-R21
-R22
-R23
-L0 38
-R3
-r1
-!s85 0
-31
-R9
-R24
-R25
-!i113 1
-R5
-R6
-R7
-n@m@u@x41
-vmux_16
-R8
-!i10b 1
-!s100 [Sd86^WhEdFQF74AC[GM02
-IiEi_igNi`Q`i<:z9RQmM50
-R2
-R0
-R21
-R22
-R23
-L0 14
-R3
-r1
-!s85 0
-31
-R9
-R24
-R25
-!i113 1
-R5
-R6
-R7
-vmux_32
-R8
-!i10b 1
-!s100 ibN`E603o1FK^Jlg9Sd>b2
-Ib5REF8VR`_4>YcokHFm4_0
-R2
-R0
-R21
-R22
-R23
-Z27 L0 21
-R3
-r1
-!s85 0
-31
-R9
-R24
-R25
-!i113 1
-R5
-R6
-R7
-vmux_32_5
-R8
-!i10b 1
-!s100 L[O?@N>R^SLhB:gMccIhE1
-I5kUd6Cb0YAaT^T4M2:;GG1
-R2
-R0
-R21
-R22
-R23
-L0 28
-R3
-r1
-!s85 0
-31
-R9
-R24
-R25
-!i113 1
-R5
-R6
-R7
-vmux_8
-R8
-!i10b 1
-!s100 ;PgO;Md9VP^jSi:GFSnR`2
-I6GVDSJ[^>:m^CBd8iDhS>3
-R2
-R0
-R21
-R22
-R23
-L0 7
-R3
-r1
-!s85 0
-31
-R9
-R24
-R25
-!i113 1
-R5
-R6
-R7
 vpc
-R8
+R1
 !i10b 1
 !s100 G?[i<D1]K1iL8IC1aEKBg2
 II_2Lge5ji06O;zUe1B6EY0
 R2
 R0
-Z28 w1697349457
-Z29 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v
-Z30 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v
+Z14 w1697349457
+Z15 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v
+Z16 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v
 L0 1
 R3
 r1
 !s85 0
 31
-R9
-Z31 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v|
-Z32 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v|
+R10
+Z17 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v|
+Z18 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/pc.v|
 !i113 1
+R4
 R5
 R6
-R7
 vpc_4
-R8
+R1
 !i10b 1
 !s100 BmP3Sm62dMC9obCRjP3GK1
 I<nma@ZaODId=C;e;Aizc21
 R2
 R0
-R28
-R29
-R30
+R14
+R15
+R16
 L0 33
 R3
 r1
 !s85 0
 31
-R9
-R31
-R32
+R10
+R17
+R18
 !i113 1
+R4
 R5
 R6
-R7
 vpc_calc
-R8
+R1
 !i10b 1
 !s100 ;ZPPY6mnnLbMMdb6Xaaz]3
 Ij0Jc>R^Oo@X8O`I=ZQlJZ3
 R2
 R0
-R28
-R29
-R30
-R27
+R14
+R15
+R16
+L0 21
 R3
 r1
 !s85 0
 31
-R9
-R31
-R32
+R10
+R17
+R18
 !i113 1
+R4
 R5
 R6
-R7
 vprocessor
-R8
+R1
 !i10b 1
-!s100 R:7HzSN;2e9OE9gLeINS83
-IHm2d_0_=@;dFb1ljmEOg;2
+!s100 `b3g0]:oYO;Dzi7mXX4]X3
+Ic:X=IK29i>XfzI_CE<VX]3
 R2
 R0
-w1698960292
+w1700000406
 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v
 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v
-R26
+L0 50
 R3
 r1
 !s85 0
 31
-R4
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/processor.v|
 !i113 1
+R4
 R5
 R6
-R7
 vrca_12
-R8
+R1
 !i10b 1
 !s100 `mbR9^fEW1c9g61>GAM4j2
 I`VMRe?B<5bglKiY>D1hS20
@@ -512,57 +288,57 @@ R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_12.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/rca_12.v|
 !i113 1
+R4
 R5
 R6
-R7
 vreg_12
-R8
+R1
 !i10b 1
 !s100 7Oil4`]O@12GB7HW4d5563
 IdH6RTP6dH9^GIg?IR_dW_0
 R2
 R0
-Z33 w1698114324
-Z34 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v
-Z35 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v
+Z19 w1698114324
+Z20 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v
+Z21 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v
 L0 13
 R3
 r1
 !s85 0
 31
-R9
-Z36 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v|
-Z37 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v|
+R10
+Z22 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v|
+Z23 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/reg_32.v|
 !i113 1
+R4
 R5
 R6
-R7
 vreg_32
-R8
+R1
 !i10b 1
 !s100 YBofGF8g37=j00K5ZR?be1
 ITY0>;Nb?4T?8Md^VWdAZ:0
 R2
 R0
-R33
-R34
-R35
+R19
+R20
+R21
 L0 1
 R3
 r1
 !s85 0
 31
-R9
-R36
-R37
+R10
+R22
+R23
 !i113 1
+R4
 R5
 R6
-R7
 vregfile
 R1
 !i10b 1
@@ -578,13 +354,13 @@ R3
 r1
 !s85 0
 31
-R4
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/regfile.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/regfile.v|
 !i113 1
+R4
 R5
 R6
-R7
 vskeleton
 R1
 !i10b 1
@@ -600,15 +376,15 @@ R3
 r1
 !s85 0
 31
-R4
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton.v|
 !i113 1
+R4
 R5
 R6
-R7
 vskeleton_tb
-R8
+R1
 !i10b 1
 !s100 4]`VE_RkDeB5]QM7<`m6a2
 I?8lK1SGiG@YKNF_lnOeZ80
@@ -622,21 +398,21 @@ R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/skeleton_tb.v|
 !i113 1
+R4
 R5
 R6
-R7
 vsx
-R8
+R1
 !i10b 1
 !s100 `aOQlmJn9g1=M[>jYeail3
 I;@Bm1[bWhCkHMeX=oWNOI2
 R2
 R0
-w1697351636
+w1699993552
 8D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v
 FD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v
 L0 1
@@ -644,10 +420,10 @@ R3
 r1
 !s85 0
 31
-R9
+R10
 !s107 D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor|D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/sx.v|
 !i113 1
+R4
 R5
 R6
-R7

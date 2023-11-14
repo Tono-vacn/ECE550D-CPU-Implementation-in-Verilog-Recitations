@@ -10,15 +10,3 @@ module sx(in, out);
 	endgenerate
 endmodule
 
-//module sx_(q_imem,is_Imm,out);
-//
-//input  [16:0] q_imem;
-//input  is_Imm;
-//output [31:0] out;
-//
-////reg ext[14:0];
-//assign out[31:17]=is_Imm? 15'b111111111111111:15'b0;
-//assign out[16:0]= q_imem[16:0];
-//
-//
-//endmodule

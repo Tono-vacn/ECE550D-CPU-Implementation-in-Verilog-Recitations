@@ -91,10 +91,9 @@ module processor(
     input [31:0] data_readRegA, data_readRegB;
 
     /* YOUR CODE STARTS HERE */
-	 wire [1:0]is_WB;
-	 wire isNotEqual, isLessThan, overflow, is_imm, has_B, pc_out, Reg_en,of,orf,Brneq,Brlt,Ab_out,setx,bex,jal,swtch;
+	 wire is_WB, isNotEqual, isNotEqual_b, isLessThan, isLessThan_b, overflow,overflow_b, is_imm, has_B, pc_out, Reg_en,of,orf,Brneq,Brlt,Ab_out,setx,bex,jal,swtch,jt,bne,jr,blt;
 	 //wire is_J, is_B, is_JR, bType;
-	 wire[31:0] imme_sx, ALU_dataB, ALU_res, ALU_res_final,address_imem_32,A_input_data; //of_j, of_r;
+	 wire[31:0] imme_sx, ALU_dataB, ALU_res, ALU_res_final,address_imem_32,A_input_data, data_res; //of_j, of_r;
 	 
 	 wire [4:0] ALUopcode, of_des, ctrl_readRegB_mid,jal_des;
 	 wire [11:0] pc_mid_res, pc_select,ALU_res_12;
@@ -105,86 +104,76 @@ module processor(
 	 pc_4 getpc(address_imem,pc_mid_res);
 	 reg_12 pc(address_imem, pc_select,clock,1'b1,reset);
 	 
-	 brgen getb(data_readRegB,data_readRegA,Brneq,Brlt);
+	 // generate bneq and blt	 
+	 alu getb(data_readRegB, data_readRegA, 5'b00000,5'b00000, data_res, Brneq, Brlt, overflow_b);
+
 	 
-	 //ctrlLogic getcode(q_imem,is_imm, ctrl_writeEnable, has_B, ALUopcode, wren, is_WB);
-	 ctrlLogic getcode(q_imem, is_imm, ctrl_writeEnable,has_B,ALUopcode, wren, is_WB, pc_out, Brneq,Brlt,Ab_out,setx,bex,jal,swtch);
+	 // generate signal for all control
+	 ctrlLogic getcode(q_imem, is_imm, ctrl_writeEnable,has_B,ALUopcode, wren, is_WB, setx,bex,jal, jt,bne,jr,blt);
 	 //generate for sign extension, pick right ALU data B
 	 
 	 sx sx_sx(q_imem[16:0],imme_sx);
 	 
 	 assign ALU_dataB = has_B?data_readRegB:imme_sx;//later change
-//	 assign ALU_dataB = has_B?imme_sx:data_readRegB;
 	 
-	 //alu a_alu(data_readRegA,ALU_dataB,ALUopcode,q_imem[11:7],ALU_res,isNotEqual, isLessThan, of);
+
+	 // 12 to 32 address
+	 assign address_imem_32={{20'b0},pc_mid_res};
 	 
-	 Convert_12_32 c12_32(pc_mid_res,address_imem_32);
+	 //ALU calculate
+	 
+	 or or_A(Ab_out,bne,blt);
 	 
 	 assign A_input_data =  Ab_out? address_imem_32:data_readRegA;
 	 
-	 //assign B_input_data = has_B
 	 
 	 alu a_alu(A_input_data, ALU_dataB, ALUopcode, q_imem[11:7],ALU_res,isNotEqual, isLessThan, of);
-	 
-	 assign ctrl_readRegB_mid = swtch?q_imem[26:22]:q_imem[16:12];
 	 
 	 assign data = data_readRegB;
 	 assign address_dmem = ALU_res[11:0];
 	 
-//	 wire addi_of;
-//	 assign addi_of = ~q_imem[31] & ~q_imem[30] & q_imem[29] & ~q_imem[28] & q_imem[27] & overflow;
-	 
 	 
 	 // get info for regfile
-
-	wire add_sign,addi,sub;
-	and and1(add_sign,~ALUopcode[4],~ALUopcode[3],~ALUopcode[2],~ALUopcode[1],~ALUopcode[0]);
-	and and2(addi,~q_imem[31],~q_imem[30],q_imem[29],~q_imem[28],q_imem[27]);
-	and and3(sub,~ALUopcode[4],~ALUopcode[3],~ALUopcode[2],~ALUopcode[1],ALUopcode[0]);
+	 // handle overflow 
+	 wire add_sign,addi,sub;
+	 and and1(add_sign,~ALUopcode[4],~ALUopcode[3],~ALUopcode[2],~ALUopcode[1],~ALUopcode[0]);
+	 and and2(addi,~q_imem[31],~q_imem[30],q_imem[29],~q_imem[28],q_imem[27]);
+	 and and3(sub,~ALUopcode[4],~ALUopcode[3],~ALUopcode[2],~ALUopcode[1],ALUopcode[0]);
 	
-	or orof(orf,add_sign,addi,sub);
-	assign overflow = orf?of:1'b0;
+	 or orof(orf,add_sign,addi,sub);
+	 assign overflow = orf?of:1'b0;
 	
-	assign ALU_res_final = overflow? (q_imem[29]?32'd2:(q_imem[2]?32'd3:32'd1)):ALU_res;
+	 assign ALU_res_final = overflow? (q_imem[29]?32'd2:(q_imem[2]?32'd3:32'd1)):ALU_res;
 	
-	 //assign ctrl_writeReg = overflow?5'd30:q_imem[26:22];
-	 //assign ctrl_writeReg = addi_of?5'd30:q_imem[26:22];
 	 assign of_des = overflow?5'd30:q_imem[26:22];
+	 
+	 // choose data for reg write
+	 
+	 assign data_writeReg = jal?(is_WB?32'b0:address_imem_32):(is_WB?ALU_res_final:q_dmem);
+	 
 
-	 //assign ctrl_readRegA = q_imem[21:17];
-	 //assign ctrl_readRegB = wren?q_imem[26:22]:q_imem[16:12];
 	 
-	 MUX41 getDataReg(data_writeReg, q_dmem, ALU_res_final, address_imem_32,32'b0,is_WB);
+	 //32 to 12
+	 assign ALU_res_12 = ALU_res[11:0];
 	 
-
 	 
-	 Convert_32_12 to12(ALU_res, ALU_res_12);
+	 //choose data for read reg
+	 wire pcj,not_e;//pcbej,
+	 or or_pcj(pcj,jt,jal,jr);
+	 or or_eq(not_e,bex,bne);
+	 assign pc_out = blt?Brlt:(not_e?Brneq:pcj);
 	 
 	 assign pc_select = pc_out?ALU_res_12:pc_mid_res;
-	 
-	 assign jal_des= jal?5'd31:of_des;
 	
-	 assign ctrl_writeReg = setx?5'd30:jal_des;
+	 assign ctrl_writeReg = setx?5'd30:(jal?5'd31:of_des);
 	 
-	 assign ctrl_readRegB = bex?5'd30:ctrl_readRegB_mid;
+	 or or_swtch(swtch,wren,bne,jr,blt);
+	 
+	 assign ctrl_readRegB = bex?5'd30:(swtch?q_imem[26:22]:q_imem[16:12]);
 	 
 	 assign ctrl_readRegA = setx?5'd0:q_imem[21:17];
 	 
-//	 assign of_j = q_imem[2]?32'd3:32'd1; 
-//	 assign of_r = q_imem[29]?32'd2:of_j;
 
-//	 assign ALU_res_final = overflow? of_r:ALU_res;
-
-
-//check the overflow result and pick the right result to write
-
-	
-
-	
-
-//    assign ALU_res_final = addi_of? 32'd2:ALU_res;
-	 //assign data_writeReg = is_WB?q_dmem:ALU_res_final;
-	 //assign is_J=opcode==
 
 
 endmodule
