@@ -1,5 +1,5 @@
 Flow report for Simple_Processor
-Tue Nov 14 17:21:12 2023
+Thu Nov 16 15:34:35 2023
 Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
 
 
@@ -41,22 +41,22 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Nov 14 17:21:12 2023       ;
+; Flow Status                        ; Successful - Thu Nov 16 15:34:35 2023       ;
 ; Quartus Prime Version              ; 17.0.0 Build 595 04/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; Simple_Processor                            ;
-; Top-level Entity Name              ; skeleton                                    ;
+; Top-level Entity Name              ; eval                                        ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 2                                           ;
-;     Total combinational functions  ; 2                                           ;
-;     Dedicated logic registers      ; 2                                           ;
-; Total registers                    ; 2                                           ;
-; Total pins                         ; 6                                           ;
+; Total logic elements               ; 2,345 / 114,480 ( 2 % )                     ;
+;     Total combinational functions  ; 2,153 / 114,480 ( 2 % )                     ;
+;     Dedicated logic registers      ; 1,006 / 114,480 ( < 1 % )                   ;
+; Total registers                    ; 1006                                        ;
+; Total pins                         ; 239 / 529 ( 45 % )                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0                                           ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
-; Total PLLs                         ; 0                                           ;
+; Total memory bits                  ; 262,144 / 3,981,312 ( 7 % )                 ;
+; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -65,7 +65,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/14/2023 17:21:02 ;
+; Start date & time ; 11/16/2023 15:11:22 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Simple_Processor    ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ agreement for further details.
 +--------------------------------------+----------------------------------------+------------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value    ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+------------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 181161461506960.170000046230048        ; --               ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 181161461506960.170016548213776        ; --               ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --               ; --          ; skeleton_tb    ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; skeleton_tb                            ; --               ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --               ; --          ; eda_simulation ;
@@ -91,39 +91,108 @@ agreement for further details.
 ; MISC_FILE                            ; imem_bb.v                              ; --               ; --          ; --             ;
 ; MISC_FILE                            ; dmem_bb.v                              ; --               ; --          ; --             ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                   ; --               ; --          ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --               ; skeleton    ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --               ; skeleton    ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --               ; skeleton    ; Top            ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --               ; eval        ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --               ; eval        ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --               ; eval        ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --               ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --               ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --               ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; skeleton                               ; Simple_Processor ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; eval                                   ; Simple_Processor ; --          ; --             ;
 +--------------------------------------+----------------------------------------+------------------+-------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4781 MB             ; 00:00:23                           ;
-; Total                ; 00:00:11     ; --                      ; --                  ; 00:00:23                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:31     ; 1.0                     ; 4807 MB             ; 00:00:50                           ;
+; Fitter                    ; 00:07:27     ; 1.0                     ; 5775 MB             ; 00:08:04                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 4691 MB             ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:10     ; 1.6                     ; 4892 MB             ; 00:00:11                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 4683 MB             ; 00:00:05                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 4682 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 4685 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 4681 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 4683 MB             ; 00:00:05                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 4684 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 4685 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 4684 MB             ; 00:00:04                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4640 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 4684 MB             ; 00:00:04                           ;
+; Total                     ; 00:09:04     ; --                      ; --                  ; 00:09:59                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; laptop-vacn      ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off Simple_Processor -c Simple_Processor
+quartus_fit --read_settings_files=off --write_settings_files=off Simple_Processor -c Simple_Processor
+quartus_asm --read_settings_files=off --write_settings_files=off Simple_Processor -c Simple_Processor
+quartus_sta Simple_Processor -c Simple_Processor
+quartus_eda --read_settings_files=off --write_settings_files=off Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Simple_Processor -c Simple_Processor --vector_source=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/Waveform2.vwf --testbench_file=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory=D:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim/ Simple_Processor -c Simple_Processor
 
 
 

@@ -8,29 +8,92 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/intelFPGA_lite/17.0/ECE550D/Simple_Processor/simulation/qsim
+veval
+Z1 !s110 1700166877
+!i10b 1
+!s100 4TJob>P3HQ::VK31?92R@0
+I9Jz99EP0^Z10BAB^OCYSE1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1700166873
+Z4 8Simple_Processor.vo
+Z5 FSimple_Processor.vo
+Z6 L0 32
+Z7 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z8 !s108 1700166876.000000
+Z9 !s107 Simple_Processor.vo|
+Z10 !s90 -work|work|Simple_Processor.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+veval_vlg_vec_tst
+R1
+!i10b 1
+!s100 zQR9ZUe<kDgL3>TQZTC]60
+I33@@J8]F;6hOXWR:eWg>70
+R2
+R0
+w1700166870
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+Z13 L0 30
+R7
+r1
+!s85 0
+31
+!s108 1700166877.000000
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R11
+R12
+vhard_block
+R1
+!i10b 1
+!s100 fLa8jf2^C773eV;Yo]W911
+IoGR]2nlmHE6=EKSKKo^[f0
+R2
+R0
+R3
+R4
+R5
+L0 70106
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
 vprocessor
-Z1 !s110 1698177407
+Z14 !s110 1698177407
 !i10b 1
 !s100 7dOeEI:cSJDcHJV4<OjG33
 IE?mjz77SlK2:nnMMeS:;a2
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R2
 R0
 w1698177405
-8Simple_Processor.vo
-FSimple_Processor.vo
-L0 32
-Z3 OV;L;10.5b;63
+R4
+R5
+R6
+R7
 r1
 !s85 0
 31
 !s108 1698177406.000000
-!s107 Simple_Processor.vo|
-!s90 -work|work|Simple_Processor.vo|
+R9
+R10
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+R11
+R12
 vprocessor_vlg_vec_tst
-R1
+R14
 !i10b 1
 !s100 7z7;:XW7E]>::8TUg<N1N2
 I3WH_BH33N:B[VC:Ya_AmP2
@@ -39,8 +102,8 @@ R0
 w1698177403
 8Waveform.vwf.vt
 FWaveform.vwf.vt
-L0 30
-R3
+R13
+R7
 r1
 !s85 0
 31
@@ -48,5 +111,5 @@ r1
 !s107 Waveform.vwf.vt|
 !s90 -work|work|Waveform.vwf.vt|
 !i113 1
-R4
-R5
+R11
+R12

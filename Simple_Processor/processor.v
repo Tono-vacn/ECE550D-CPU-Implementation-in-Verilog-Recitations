@@ -148,8 +148,9 @@ module processor(
 	 assign of_des = overflow?5'd30:q_imem[26:22];
 	 
 	 // choose data for reg write
-	 
-	 assign data_writeReg = jal?(is_WB?32'b0:address_imem_32):(is_WB?ALU_res_final:q_dmem);
+	 //jal == 1 : is_WB must be 0 
+	 //assign data_writeReg = jal?(is_WB?32'b0:address_imem_32):(is_WB?ALU_res_final:q_dmem);
+	 assign data_writeReg = jal?address_imem_32:(is_WB?ALU_res_final:q_dmem);
 	 
 
 	 

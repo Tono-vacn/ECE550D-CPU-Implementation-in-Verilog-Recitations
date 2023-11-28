@@ -2,40 +2,112 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : -17.730
+TNS   : -16827.903
+
 Type  : Slow 1200mV 85C Model Setup 'clock'
-Slack : 0.210
+Slack : -14.625
+TNS   : -588.328
+
+Type  : Slow 1200mV 85C Model Setup 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : -0.511
+TNS   : -0.511
+
+Type  : Slow 1200mV 85C Model Hold 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : 0.480
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'clock'
-Slack : 0.445
+Slack : 0.944
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : 1.107
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clock'
 Slack : -3.000
-TNS   : -4.285
+TNS   : -262.813
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : -1.285
+TNS   : -1290.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : -16.208
+TNS   : -15448.168
 
 Type  : Slow 1200mV 0C Model Setup 'clock'
-Slack : 0.297
+Slack : -13.590
+TNS   : -537.312
+
+Type  : Slow 1200mV 0C Model Setup 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : -0.412
+TNS   : -0.412
+
+Type  : Slow 1200mV 0C Model Hold 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : 0.429
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'clock'
-Slack : 0.398
+Slack : 0.882
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : 1.011
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clock'
 Slack : -3.000
-TNS   : -4.285
+TNS   : -258.589
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : -1.285
+TNS   : -1290.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : -8.692
+TNS   : -8265.765
 
 Type  : Fast 1200mV 0C Model Setup 'clock'
-Slack : 0.626
+Slack : -6.941
+TNS   : -249.693
+
+Type  : Fast 1200mV 0C Model Setup 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : 0.025
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : 0.215
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'clock'
-Slack : 0.208
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : 0.501
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clock'
 Slack : -3.000
-TNS   : -4.081
+TNS   : -111.595
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_dffe:clk4|dffe_reg:dff_ins|q'
+Slack : -1.000
+TNS   : -1004.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_dffe:clk2|dffe_reg:dff_ins|q'
+Slack : -1.000
+TNS   : -1.000
 
 ------------------------------------------------------------
